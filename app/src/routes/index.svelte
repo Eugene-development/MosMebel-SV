@@ -1,13 +1,11 @@
-<script context="module">
-	export const prerender = true;
-</script>
-
 <script>
-
+	const title = 'Кухонные гарнитуры и шкафы купе в Москве и области'
+	const description = 'Предлагаем шкафы купе и кухонные гарнитуры стандартного размера и под заказ в Москве и области'
 </script>
 
 <svelte:head>
-	<title>Кухонные гарнитуры и шкафы купе в Москве</title>
+	<title>{title}</title>
+	<meta name="description" content="{description}">
 </svelte:head>
 
 <!--

@@ -3,6 +3,7 @@
     const yearNow = now.getFullYear()
 
 
+    export let token;
     export let option;
     export let menu;
     export let text;
@@ -26,7 +27,7 @@
             break;
     }
 </script>
-
+{token}
 
 <footer class="{bg_color}">
     <div class="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
