@@ -1,9 +1,9 @@
 <script>
-    import {useHeader} from "$lib/use/content/header";
+    import {useHeader} from "$lib/use/content/header/index.js";
     import {formMeasurement, mobileMenu} from '../../../stores.js';
 
     const {menu} = useHeader;
-    import {useVisible} from "$lib/use/visible";
+    import {useVisible} from "$lib/use/visible/index.js";
 
     const {invert} = useVisible;
 
@@ -33,7 +33,7 @@
     <div class="absolute z-20 top-0 inset-x-0 p-2 transition transform origin-top lg:hidden bg-gray-50">
         <div class="rounded-lg shadow-md  ring-1 ring-black ring-opacity-5 overflow-hidden">
             <div class="px-5 pt-4 flex items-center justify-between">
-                <a on:click={changeVisibleMobileMenu} href="/">
+                <a on:click={changeVisibleMobileMenu} href="/app/static">
                     <img class="h-8 w-auto" src="/Logo/logo1.svg"
                          alt="main">
                 </a>

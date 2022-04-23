@@ -7,8 +7,8 @@
 	// 	console.log(url.hostname)
 	// };
 
-	import Header from '$lib/Header/index.svelte';
-	import Footer from '$lib/Footer/index.svelte'
+	import Header from '$lib/layouts/Header/v_001/index.svelte';
+	import Footer from '$lib/layouts/Footer/v_001/index.svelte'
 	import '../app.css';
 
 
