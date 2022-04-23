@@ -1,10 +1,10 @@
-const token = import.meta.env.VITE_localhost
+const token = import.meta.env.VITE_LOCALHOST
 
 
 const option = '1'
 
 let menu;
-if (import.meta.env.VITE_localhost === '5'){
+if (import.meta.env.VITE_LOCALHOST === '5'){
      menu = [
         {
             id: 1,
@@ -18,17 +18,32 @@ if (import.meta.env.VITE_localhost === '5'){
         },
     ]
 }
-if (import.meta.env.VITE_localhost === '6'){
+if (import.meta.env.VITE_LOCALHOST === '6'){
      menu = [
         {
             id: 1,
-            value: 'Главная2',
+            value: 'Главная',
             path: '/',
         },
         {
             id: 2,
-            value: 'О нас2',
-            path: '/about',
+            value: 'Шкафы',
+            path: '/shkafy',
+        },
+        {
+            id: 2,
+            value: 'Кухни',
+            path: '/kuhni',
+        },
+        {
+            id: 2,
+            value: 'Блог',
+            path: '/blog',
+        },
+        {
+            id: 2,
+            value: 'Контакты',
+            path: '/contact',
         },
     ]
 }
