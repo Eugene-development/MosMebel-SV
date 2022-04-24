@@ -33,17 +33,19 @@
                 </div>
             </div>
             <div class="hidden space-x-10 md:flex md:ml-10">
-                <a href="#" class="font-medium text-white hover:text-gray-300">Product</a>
+                <a href="/" class="font-medium text-white hover:text-gray-300">Главная</a>
 
-                <a href="#" class="font-medium text-white hover:text-gray-300">Features</a>
+                <a href="/shkafy" class="font-medium text-white hover:text-gray-300">Шкафы</a>
 
-                <a href="#" class="font-medium text-white hover:text-gray-300">Marketplace</a>
+                <a href="/kuhni" class="font-medium text-white hover:text-gray-300">Кухни</a>
 
-                <a href="#" class="font-medium text-white hover:text-gray-300">Company</a>
+                <a href="/blog" class="font-medium text-white hover:text-gray-300">Блог</a>
+
+                <a href="/contacts" class="font-medium text-white hover:text-gray-300">Контакты</a>
             </div>
         </div>
         <div class="hidden md:flex">
-            <a href="tel:+74951475550" class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-gray-600 hover:bg-gray-700"> +7 (495) 147-55-50 </a>
+            <a href="tel:+74951475550" class="inline-flex items-center px-4 py-2 border border-transparent text-lg font-medium rounded-md text-white bg-gray-600 hover:bg-gray-700"> +7 (495) 147-55-50 </a>
         </div>
     </nav>
 

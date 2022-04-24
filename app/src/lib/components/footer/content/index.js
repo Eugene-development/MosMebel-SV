@@ -43,7 +43,7 @@ if (import.meta.env.VITE_LOCALHOST === '6'){
         {
             id: 2,
             value: 'Контакты',
-            path: '/contact',
+            path: '/contacts',
         },
     ]
 }
