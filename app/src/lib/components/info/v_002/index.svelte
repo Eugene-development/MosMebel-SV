@@ -1,10 +1,10 @@
 <div class="min-h-full border-b-2">
     <nav class="bg-gray-800">
-        <div class="max-w-full mx-auto px-6 sm:px-8 lg:px-12">
+        <div class="max-w-full mx-auto px-6 sm:px-16 lg:px-24">
             <div class="flex items-center justify-between h-12">
                 <div class="flex items-center">
                     <div class="hidden md:block">
-                        <div class="ml-10 flex items-baseline space-x-4">
+                        <div class="flex items-baseline space-x-4">
                             <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
                             <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-xs font-medium">Замер</a>
 
