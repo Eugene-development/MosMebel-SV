@@ -11,7 +11,7 @@
     </div>
     <div class="relative pt-6 pb-16 sm:pb-24">
 
-        <main class="mt-8 sm:mt-12">
+        <main class="mt-8 sm:mt-10">
             <div class="mx-auto max-w-7xl">
                 <div class="lg:grid lg:grid-cols-12 lg:gap-28">
                     <div class="px-4 sm:px-6 sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left lg:flex lg:items-center">
@@ -46,7 +46,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="mt-16 sm:mt-24 lg:mt-0 lg:col-span-6">
+                    <div class="mt-16 sm:mt-24 lg:mt-4 lg:col-span-6">
                         <div class="bg-white sm:max-w-md sm:w-full sm:mx-auto sm:rounded-lg sm:overflow-hidden">
                             <div class="px-4 py-8 sm:px-10">
                                 <div>
