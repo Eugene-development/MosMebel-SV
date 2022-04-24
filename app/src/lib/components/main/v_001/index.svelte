@@ -24,12 +24,12 @@
                                     <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
                                 </svg>
                             </a>
-                            <h1 class="mt-4 text-3xl tracking-tight font-extrabold text-white sm:mt-5 sm:leading-none lg:mt-6 lg:text-4xl xl:text-5xl">
+                            <h1 class="mt-4 text-3xl tracking-tight font-extrabold text-white sm:mt-5 sm:leading-none lg:mt-6 lg:text-4xl xl:text-5xl antialiased">
                                 <span class="md:block">Шкафы купе и <br> кухонные гарнитуры</span>
                                 <span class="pb-3 block bg-clip-text text-transparent bg-gradient-to-r from-green-200 to-cyan-400 sm:pb-5">под заказ <br> от производителей</span>
                             </h1>
-                            <p class="mt-3 text-base text-gray-300 sm:mt-5 sm:text-base lg:text-base xl:text-base">Шкафы купе по низким ценам и с разными вариантами установки дверей. Вы можете заказать у нас как шкаф эконом сегмента так и премиальный вариант. Также вы можете приобрести только внутреннее напонение или сами двери купе.</p>
-                            <p class="mt-3 text-base text-gray-300 sm:mt-5 sm:text-base lg:text-base xl:text-base">Если вы хотите приобрести кухонный гарнитур недорого и с высоким качеством, то предлагаем сделать это у нас. Мы предоставим оптимальное соотношение качества и цены на кухонные гарнитуры вне зависимости от ценовой категории.</p>
+                            <p class="mt-3 text-base text-gray-300 sm:mt-5 sm:text-base lg:text-base xl:text-base antialiased">Шкафы купе по низким ценам и с разными вариантами установки дверей. Вы можете заказать у нас как шкаф эконом сегмента так и премиальный вариант. Также вы можете приобрести только внутреннее наполнение или сами двери купе.</p>
+                            <p class="mt-3 text-base text-gray-300 sm:mt-5 sm:text-base lg:text-base xl:text-base antialiased">Если вы хотите приобрести кухонный гарнитур недорого и с высоким качеством, то предлагаем сделать это у нас. Мы предоставим оптимальное соотношение качества и цены на кухонные гарнитуры вне зависимости от ценовой категории.</p>
                             <!--							<p class="mt-8 text-sm text-white uppercase tracking-wide font-semibold sm:mt-10">Наши партнёры</p>-->
                             <div class="mt-5 w-full sm:mx-auto sm:max-w-lg lg:ml-0">
                                 <div class="flex flex-wrap items-start justify-between">
