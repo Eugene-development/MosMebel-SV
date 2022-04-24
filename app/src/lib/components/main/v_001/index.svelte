@@ -29,7 +29,7 @@
                                 <span class="pb-3 block bg-clip-text text-transparent bg-gradient-to-r from-green-200 to-cyan-400 sm:pb-5">под заказ <br> от производителей</span>
                             </h1>
                             <p class="mt-3 text-base text-gray-300 sm:mt-5 sm:text-base lg:text-base xl:text-base">Шкафы купе по низким ценам и с разными вариантами установки дверей. Вы можете заказать у нас как шкаф эконом сегмента так и премиальный вариант. Также вы можете приобрести только внутреннее напонение или сами двери купе.</p>
-                            <p class="mt-3 text-base text-gray-300 sm:mt-5 sm:text-base lg:text-base xl:text-base">Если вы хотите приобрести кухонный гарнитур недорого и с высоким качеством, то предлагаем сделать это у нас. Мы предлагаем оптимальное соотношение качества и цены на кухонные гарнитуры вне зависимости от ценовой категории.</p>
+                            <p class="mt-3 text-base text-gray-300 sm:mt-5 sm:text-base lg:text-base xl:text-base">Если вы хотите приобрести кухонный гарнитур недорого и с высоким качеством, то предлагаем сделать это у нас. Мы предоставим оптимальное соотношение качества и цены на кухонные гарнитуры вне зависимости от ценовой категории.</p>
                             <!--							<p class="mt-8 text-sm text-white uppercase tracking-wide font-semibold sm:mt-10">Наши партнёры</p>-->
                             <div class="mt-5 w-full sm:mx-auto sm:max-w-lg lg:ml-0">
                                 <div class="flex flex-wrap items-start justify-between">
