@@ -74,7 +74,7 @@
         <!--                </svg>-->
         <!--            </a>-->
         <!--        </div>-->
-        <p class="mt-8 text-center text-base text-gray-400">&copy; {dataStart}-{yearNow}. {text}
+        <p class="mt-8 text-center text-base text-gray-400">&copy; { dataStart }-{ yearNow }. { text }
             <br>Обслуживание сайта +7 (495) 147-55-50
         </p>
     </div>

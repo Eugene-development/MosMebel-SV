@@ -48,7 +48,7 @@ if (import.meta.env.VITE_LOCALHOST === '6'){
     ]
 }
 
-const text = 'Компания "Новострой". Ремонт квартир в Дзержинске любой сложности.'
+const text = 'Компания "МосМебель". Кухонные гарнитуры и шкафы купе под заказ.'
 const dataStart = '2015'
 
 export const useFooter = {
