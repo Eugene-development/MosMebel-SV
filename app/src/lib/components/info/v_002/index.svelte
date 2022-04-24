@@ -12,7 +12,7 @@
 
                             <a href="/oplata" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-xs font-medium">Оплата</a>
 
-                            <a href="/dostanka" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-xs font-medium">Доставка</a>
+                            <a href="/dostavka" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-xs font-medium">Доставка</a>
 
                             <a href="/podem" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-xs font-medium">Подъём</a>
 
