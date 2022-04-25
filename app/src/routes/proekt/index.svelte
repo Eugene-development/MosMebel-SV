@@ -1,6 +1,6 @@
 <script>
-    const title = ''
-    const description = ''
+    const title = 'Проекты кухонных гарнитуров и шкафов купе'
+    const description = 'Составляем проекты мебели под размеры вашего помещения и с учётом ваших пожеланий'
 </script>
 
 <svelte:head>

@@ -1,6 +1,6 @@
 <script>
-    const title = ''
-    const description = ''
+    const title = 'Контакты с компанией МосМебель'
+    const description = 'Связаться с нами достаточно легко по почте, чату или просто позвонив'
 </script>
 
 <svelte:head>

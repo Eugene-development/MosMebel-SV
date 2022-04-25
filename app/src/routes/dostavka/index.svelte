@@ -1,6 +1,6 @@
 <script>
-    const title = ''
-    const description = ''
+    const title = 'Доставка мебели'
+    const description = 'Условия доставки шкафов купе и кухонных гарнитуров'
 </script>
 
 <svelte:head>

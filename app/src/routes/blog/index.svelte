@@ -1,6 +1,6 @@
 <script>
-    const title = ''
-    const description = ''
+    const title = 'Блог компании МосМебель'
+    const description = 'Полезная информация о шкафах купе и кухонных гарнитурах'
 </script>
 
 <svelte:head>

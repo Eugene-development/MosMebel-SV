@@ -1,6 +1,6 @@
 <script>
-    const title = ''
-    const description = ''
+    const title = 'Гарантии на кухонные гарнитуры и шкафы купе'
+    const description = 'Условия на гарантийные обязательства на шкафы купе и кухонные гарнитуры'
 </script>
 
 <svelte:head>

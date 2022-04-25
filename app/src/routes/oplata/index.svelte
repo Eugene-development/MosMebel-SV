@@ -1,6 +1,6 @@
 <script>
-    const title = ''
-    const description = ''
+    const title = 'Способы оплаты за кухонные гарнитуры и шкафы купе'
+    const description = 'Мы предлагаем различные варианты оплаты наличным, безналичным способом, а также в рассрочку'
 </script>
 
 <svelte:head>

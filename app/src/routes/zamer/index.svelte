@@ -1,6 +1,6 @@
 <script>
-    const title = ''
-    const description = ''
+    const title = 'Замер мебели и помещения'
+    const description = 'Проводим замеры помещения, что бы мебель подошла по габаритам'
 </script>
 
 <svelte:head>
