@@ -43,7 +43,7 @@
                             </div>
                         </div>
 
-                        <button type="button" class="bg-gray-800 p-1 rounded-full text-cyan-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
+                        <button type="button" class="bg-gray-800 p-1 rounded-full text-cyan-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white animate-pulse">
                             <span class="sr-only">View notifications</span>
                             <!-- Heroicon name: outline/bell -->
                             <svg class="h-6 w-6 " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">

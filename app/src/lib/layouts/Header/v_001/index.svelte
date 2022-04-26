@@ -41,9 +41,9 @@
 
                 <a href="/blog" class="font-medium text-white hover:text-gray-300">Блог</a>
 
-                <a href="/contacts" class="font-medium text-white hover:text-gray-300">Контакты</a>
-
                 <a href="/contacts" class="font-medium text-white hover:text-gray-300">Партнёры</a>
+
+                <a href="/contacts" class="font-medium text-white hover:text-gray-300">Контакты</a>
             </div>
         </div>
 <!--        <div class="hidden lg:flex items-center px-2">-->
