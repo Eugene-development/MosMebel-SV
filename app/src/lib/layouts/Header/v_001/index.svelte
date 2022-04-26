@@ -14,7 +14,7 @@
 
 
 
-<div class="py-4 relative bg-gray-800 overflow-hidden">
+<div class="pt-2 pb-5 relative bg-gray-800 overflow-hidden">
     <nav class="relative max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6" aria-label="Global">
         <div class="flex items-center flex-1 justify-between">
             <div class="flex items-center justify-between w-full md:w-auto">
