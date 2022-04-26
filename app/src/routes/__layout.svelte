@@ -12,7 +12,7 @@
 	import '../app.css';
 
 
-	<!--console.log(import.meta.env.VITE_localhost)-->
+	//console.log(import.meta.env.VITE_localhost)
 </script>
 
 <Header />

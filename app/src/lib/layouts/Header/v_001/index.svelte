@@ -16,11 +16,11 @@
 
 <div class="py-4 relative bg-gray-800 overflow-hidden">
     <nav class="relative max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6" aria-label="Global">
-        <div class="flex items-center flex-1">
+        <div class="flex items-center flex-1 justify-between">
             <div class="flex items-center justify-between w-full md:w-auto">
-                <a href="#">
-                    <span class="sr-only">Workflow</span>
-                    <img class="h-8 w-auto sm:h-10" src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg" alt="">
+                <a href="/">
+                    <span class="sr-only">Logo</span>
+                    <img class="h-8 w-auto sm:h-12" src="https://storage.yandexcloud.net/brand-logo/mos-mebel/5.png" alt="logo">
                 </a>
                 <div class="-mr-2 flex items-center md:hidden">
                     <button type="button" class="bg-gray-800 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:bg-gray-700 focus:outline-none focus:ring-2 focus-ring-inset focus:ring-white" aria-expanded="false">
@@ -32,7 +32,7 @@
                     </button>
                 </div>
             </div>
-            <div class="hidden space-x-10 md:flex md:ml-10">
+            <div class="hidden space-x-10 md:flex md:ml-10 mt-3 mr-12">
                 <a href="/" class="font-medium text-white hover:text-gray-300">Главная</a>
 
                 <a href="/shkafy" class="font-medium text-white hover:text-gray-300">Шкафы</a>
@@ -42,6 +42,8 @@
                 <a href="/blog" class="font-medium text-white hover:text-gray-300">Блог</a>
 
                 <a href="/contacts" class="font-medium text-white hover:text-gray-300">Контакты</a>
+
+                <a href="/contacts" class="font-medium text-white hover:text-gray-300">Партнёры</a>
             </div>
         </div>
 <!--        <div class="hidden lg:flex items-center px-2">-->
