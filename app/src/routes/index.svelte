@@ -12,8 +12,15 @@
 
 <Main_v_001/>
 
-<div class="">
-	<div class="max-w-2xl mx-auto px-4 py-8 sm:px-6 sm:py-32 lg:max-w-7xl lg:px-8">
+<div class="mt-24">
+
+	<div class="text-center">
+		<h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">Последнее из блога</h2>
+		<p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">Интересные статьи о тенденциях, материалах, компаниях и в целом о мебельной индустрии в нашей стране и за рубежом</p>
+	</div>
+
+	<div class="max-w-2xl mx-auto px-4 py-8 sm:px-6 sm:py-16 lg:max-w-7xl lg:px-8">
+
 		<!-- Details section -->
 		<section aria-labelledby="details-heading">
 			<div class="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:gap-x-8">
