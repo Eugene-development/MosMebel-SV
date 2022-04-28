@@ -41,7 +41,7 @@
 
                 <a href="/blog" class="font-medium text-white hover:text-gray-300">Блог</a>
 
-                <a href="/contacts" class="font-medium text-white hover:text-gray-300">Партнёры</a>
+                <a href="/partner" class="font-medium text-white hover:text-gray-300">Партнёрам</a>
 
                 <a href="/contacts" class="font-medium text-white hover:text-gray-300">Контакты</a>
             </div>

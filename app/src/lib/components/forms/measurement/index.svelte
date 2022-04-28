@@ -27,7 +27,7 @@
     const url = `/sendMeasurement`;
 
     const apiCRUD = {
-        baseURL: 'https://adminexpo.com:7721/',
+        baseURL: 'https://larux.ru:7721/',
         headers: {
             Authorization: `Bearer 3`
         }
