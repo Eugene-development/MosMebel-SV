@@ -13,7 +13,7 @@
 
         <main class="mt-8 sm:mt-10">
             <div class="mx-auto max-w-7xl">
-                <div class="lg:grid lg:grid-cols-12 lg:gap-28">
+                <div class="lg:grid lg:grid-cols-12 lg:gap-12">
                     <div class="px-4 sm:px-6 sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left lg:flex lg:items-center">
                         <div>
                             <a href="/contacts" class="inline-flex items-center text-white bg-gray-900 rounded-md p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-gray-200">
@@ -24,7 +24,7 @@
                                     <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
                                 </svg>
                             </a>
-                            <h1 class="mt-4 text-3xl tracking-tight font-extrabold text-white sm:mt-5 sm:leading-none lg:mt-6 lg:text-4xl xl:text-5xl antialiased">
+                            <h1 class="mt-4  tracking-tight font-extrabold text-white sm:mt-5 sm:leading-none lg:mt-6 text-4xl lg:text-4xl xl:text-5xl antialiased">
                                 <span class="md:block">Шкафы купе и <br> кухонные гарнитуры</span>
                                 <span class="pb-3 block bg-clip-text text-transparent bg-gradient-to-r from-green-200 to-cyan-400 sm:pb-5">под заказ <br> от производителей</span>
                             </h1>

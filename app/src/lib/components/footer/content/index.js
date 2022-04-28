@@ -54,7 +54,7 @@ if (import.meta.env.VITE_LOCALHOST === '6'){
 }
 
 const text = 'Компания "МосМебель". Кухонные гарнитуры и шкафы купе под заказ.'
-const dataStart = '2015'
+const dataStart = '2001'
 
 export const useFooter = {
     token,
