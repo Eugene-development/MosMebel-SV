@@ -88,11 +88,11 @@
 			<div class="pt-10 pb-12 px-6 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20">
 				<div class="lg:self-center">
 					<h2 class="text-3xl font-extrabold text-white sm:text-4xl">
-						<span class="block">Ready to dive in?</span>
-						<span class="block">Start your free trial today.</span>
+						<span class="block">Вы производитель?</span>
+						<span class="block">Мы готовы к сотрудничеству!</span>
 					</h2>
 					<p class="mt-4 text-lg leading-6 text-indigo-200">Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel nulla nec.</p>
-					<a href="#" class="mt-8 bg-white border border-transparent rounded-md shadow px-5 py-3 inline-flex items-center text-base font-medium text-indigo-600 hover:bg-indigo-50">Sign up for free</a>
+					<a href="/partner" class="mt-8 bg-white border border-transparent rounded-md shadow px-5 py-3 inline-flex items-center text-base font-medium text-cyan-600 hover:bg-indigo-50">Подробнее</a>
 				</div>
 			</div>
 			<div class="-mt-6 aspect-w-5 aspect-h-3 md:aspect-w-2 md:aspect-h-1">
@@ -109,8 +109,8 @@
 	</div>
 	<div class="relative max-w-7xl mx-auto">
 		<div class="text-center">
-			<h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">From the blog</h2>
-			<p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa libero labore natus atque, ducimus sed.</p>
+			<h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">Последнее из блога</h2>
+			<p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">Интересные статьи о тенденциях, материалах, компаниях и в целом о мебельной индустрии в нашей стране и за рубежом</p>
 		</div>
 		<div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
 			<div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
