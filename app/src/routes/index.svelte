@@ -15,7 +15,7 @@
 <div class="mt-24">
 
 	<div class="text-center">
-		<h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">Мебель на заказ от ведущих производителей</h2>
+		<h2 class="max-w-4xl mx-auto text-3xl tracking-tight font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 via-red-700 to-blue-700 sm:text-4xl">Мебель на заказ от ведущих производителей</h2>
 		<p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">Мы сотрудничаем только с проверенными производителями корпусной мебели, дающие гарантии качества и адекватные цены.</p>
 	</div>
 
