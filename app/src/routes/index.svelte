@@ -58,7 +58,7 @@
 	</div>
 	<div class="relative max-w-7xl mx-auto">
 		<div class="text-center">
-			<h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">Последнее из блога</h2>
+			<h2 class="max-w-4xl mx-auto text-3xl tracking-tight font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 via-red-700 to-blue-700 sm:text-4xl">Последние посты из нашего блога</h2>
 			<p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">Интересные статьи о тенденциях, материалах, компаниях и в целом о мебельной индустрии в нашей стране и за рубежом</p>
 		</div>
 		<div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
@@ -174,11 +174,11 @@
 <div class="bg-white">
 	<div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
 		<div class="bg-gray-800 rounded-lg shadow-xl overflow-hidden lg:grid lg:grid-cols-2 lg:gap-4">
-			<div class="pt-10 pb-12 px-6 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20">
+			<div class="pt-10 pb-12 px-3 sm:pt-16 sm:px-8 lg:py-16 lg:pr-0 xl:py-20 xl:px-10">
 				<div class="lg:self-center">
-					<h2 class="text-3xl font-extrabold text-white sm:text-4xl">
+					<h2 class=" mx-auto text-3xl tracking-tight font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 via-red-700 to-blue-500 ">
 						<span class="block">Вы производитель?</span>
-						<span class="block">Мы готовы к сотрудничеству!</span>
+						<span class="block">Мы готовы к взаимовыгодному сотрудничеству!</span>
 					</h2>
 					<p class="mt-4 text-lg leading-6 text-indigo-200">Если вы заинтересованы в продвижении вашей продукциив вашем регионе и гарантируете качество и конкурентную цену, то ознакомьтесь с нашим предложением.</p>
 					<a href="/partner" class="mt-8 bg-white border border-transparent rounded-md shadow px-5 py-3 inline-flex items-center text-base font-medium text-red-800 hover:bg-indigo-50">Подробнее</a>
