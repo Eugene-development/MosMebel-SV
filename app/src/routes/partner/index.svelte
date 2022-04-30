@@ -94,7 +94,7 @@
                 <div class="sm:text-center lg:text-left">
                     <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 ">
                         <span class="block xl:inline sm:text-4xl md:text-5xl">Будем вместе делать</span> <br>
-                        <span class="block bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-cyan-800 xl:inline sm:text-6xl md:text-7xl">ЭТОТ БИЗНЕС</span>
+                        <span class="block bg-clip-text text-transparent bg-gradient-to-r from-green-400 via-red-700 to-blue-700 xl:inline sm:text-6xl md:text-7xl">ЭТОТ БИЗНЕС</span>
                     </h1>
                     <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">Предлагаем взаимовыгодное и долгосрочное сотрудничество в вашем городе по обслуживанию спроса населения на мебельную продукцию. Для получения лицензии оставьте заявку.</p>
                     <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
