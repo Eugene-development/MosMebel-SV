@@ -96,10 +96,11 @@
                         <span class="block xl:inline sm:text-4xl md:text-5xl text-slate-700">Будем вместе делать</span> <br>
                         <span class="block bg-clip-text text-transparent bg-gradient-to-r from-green-400 via-red-700 to-blue-700 xl:inline sm:text-6xl md:text-7xl">ЭТОТ БИЗНЕС</span>
                     </h1>
-                    <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">Предлагаем взаимовыгодное и долгосрочное сотрудничество в вашем городе по обслуживанию спроса населения на мебельную продукцию. Для получения лицензии оставьте заявку.</p>
+                    <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">Предлагаем взаимовыгодное и долгосрочное сотрудничество в вашем городе по обслуживанию спроса на мебельную продукцию.
+                        <br> Для получения лицензии оставьте заявку.</p>
                     <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                         <div class="rounded-md shadow">
-                            <button class="w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-white bg-blue-900 md:py-4 md:text-lg md:px-10"> Оформить заявку </button>
+                            <button class="w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-white bg-gradient-to-r from-blue-900 via-blue-600 to-blue-900 hover:from-blue-600 hover:via-blue-900 hover:to-blue-600 md:py-4 md:text-lg md:px-10"> Оформить заявку </button>
 <!--                            <button class="w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-white bg-gradient-to-r from-yellow-500 via-red-700 to-blue-700 md:py-4 md:text-lg md:px-10"> Оформить заявку </button>-->
                         </div>
                     </div>
