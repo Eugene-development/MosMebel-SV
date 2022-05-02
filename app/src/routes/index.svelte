@@ -12,14 +12,14 @@
 
 <Main_v_001/>
 
-<div class="mt-24">
+<div class="mt-24 bg-gradient-to-b from-white to-gray-50">
 
 	<div class="text-center">
 		<h2 class="max-w-4xl mx-auto text-3xl tracking-tight font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 via-red-700 to-blue-700 sm:text-4xl">Мебель на заказ от ведущих производителей</h2>
 		<p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">Мы сотрудничаем только с проверенными производителями корпусной мебели, дающие гарантии качества и адекватные цены.</p>
 	</div>
 
-	<div class="max-w-2xl mx-auto px-4 py-8 sm:px-6 sm:py-16 lg:max-w-7xl lg:px-8">
+	<div class="max-w-2xl mx-auto px-4 py-8 sm:px-6 sm:py-16 lg:max-w-7xl lg:px-8 ">
 
 		<!-- Details section -->
 		<section aria-labelledby="details-heading">
@@ -29,9 +29,24 @@
 						<img src="objects/4.jpg" alt="ремонт" class="w-full object-center object-cover">
 					</div>
 					<div class="prose prose-sky">
-						<h3 class="mt-8 text-base text-gray-800">В наших кухонных гарнитурах мы предлагаем:</h3>
+						<h3 class="mt-8 text-lg text-gray-800">В наших кухонных гарнитурах мы предлагаем:</h3>
+						<ul>
+							<li>Дизайн-проект гарнитура</li>
+						</ul>
 						<ul>
 							<li>Столешницы постформинг или жидкий камень</li>
+						</ul>
+						<ul>
+							<li>Высоту навесных ящиков под потолок</li>
+						</ul>
+						<ul>
+							<li>Монтаж и подключение встраиваемой техники</li>
+						</ul>
+						<ul>
+							<li>Подвеска навесных шкафов на шину или уголки</li>
+						</ul>
+						<ul>
+							<li>Стеновые панели с фотопечатью из закалённого стекла</li>
 						</ul>
 					</div>
 				</div>
@@ -40,9 +55,24 @@
 						<img src="objects/9.jpg" alt="ремонт" class="w-full object-center object-cover">
 					</div>
 					<div class="prose prose-sky">
-						<h3 class="mt-8 text-base text-gray-800">Заказывая шкаф вы можете приобрести по выбору:</h3>
+						<h3 class="mt-8 text-lg text-gray-800">Заказывая шкаф вы можете приобрести по выбору:</h3>
+						<ul>
+							<li>Дизайн-проект шкафа</li>
+						</ul>
 						<ul>
 							<li>Нижнеопорная или подвесная система направляющих</li>
+						</ul>
+						<ul>
+							<li>Втраиваемую или корпусную структуру каркаса</li>
+						</ul>
+						<ul>
+							<li>4-х шарнирные петли для регулирования дверок</li>
+						</ul>
+						<ul>
+							<li>Сетчатые корзины или ящики на направляющих</li>
+						</ul>
+						<ul>
+							<li>Фотопечать или пескоструйные рисунки на дверях</li>
 						</ul>
 					</div>
 				</div>
@@ -176,12 +206,12 @@
 		<div class="bg-gray-800 rounded-lg shadow-xl overflow-hidden lg:grid lg:grid-cols-2 lg:gap-4">
 			<div class="pt-10 pb-12 px-3 sm:pt-16 sm:px-8 lg:py-16 lg:pr-0 xl:py-20 xl:px-10">
 				<div class="lg:self-center">
-					<h2 class=" mx-auto text-3xl tracking-tight font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 via-red-700 to-blue-500 ">
+					<h2 class=" mx-auto text-3xl tracking-tight font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 via-red-500 to-blue-500 ">
 						<span class="block">Вы производитель?</span>
 						<span class="block">Мы готовы к взаимовыгодному сотрудничеству!</span>
 					</h2>
-					<p class="mt-4 text-lg leading-6 text-indigo-200">Если вы заинтересованы в продвижении вашей продукциив вашем регионе и гарантируете качество и конкурентную цену, то ознакомьтесь с нашим предложением.</p>
-					<a href="/partner" class="mt-8 bg-white border border-transparent rounded-md shadow px-5 py-3 inline-flex items-center text-base font-medium text-red-800 hover:bg-indigo-50">Подробнее</a>
+					<p class="mt-4 text-lg leading-6 text-indigo-100">Если вы заинтересованы в продвижении вашей продукциив вашем регионе и гарантируете качество и конкурентную цену, то ознакомьтесь с нашим предложением.</p>
+					<a href="/partner" class="mt-8 bg-white border border-transparent rounded-md shadow px-5 py-3 inline-flex items-center text-base font-medium text-slate-800 hover:bg-indigo-50">Подробнее</a>
 				</div>
 			</div>
 			<div class="-mt-6 aspect-w-5 aspect-h-3 md:aspect-w-2 md:aspect-h-1">
