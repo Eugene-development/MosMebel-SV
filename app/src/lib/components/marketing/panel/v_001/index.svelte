@@ -1,3 +1,10 @@
+<script>
+    import { usePanel} from "$lib/components/marketing/panel/content/index.js";
+    const { Panel } = usePanel;
+    const  title  = Panel[0].title;
+    const description = Panel[0].description;
+</script>
+
 <div class="relative py-16 bg-white">
     <div class="hidden absolute top-0 inset-x-0 h-1/2 bg-gray-50 lg:block" aria-hidden="true"></div>
     <div class="max-w-7xl mx-auto bg-slate-800 lg:bg-transparent lg:px-8">
@@ -31,8 +38,8 @@
                     </svg>
                 </div>
                 <div class="relative max-w-md mx-auto py-12 px-4 space-y-6 sm:max-w-3xl sm:py-16 sm:px-6 lg:max-w-none lg:p-0 lg:col-start-4 lg:col-span-6">
-                    <h2 class="text-5xl font-extrabold text-white" id="join-heading">Замер</h2>
-                    <p class="text-lg text-white">Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames.</p>
+                    <h2 class="text-5xl font-extrabold text-white" id="join-heading">{ title }</h2>
+                    <p class="text-lg text-white">{ description }</p>
                     <a class="block w-full py-3 px-5 text-center bg-white border border-transparent rounded-md shadow-md text-base font-medium text-indigo-700 hover:bg-gray-50 sm:inline-block sm:w-auto" href="#">Explore open positions</a>
                 </div>
             </div>
