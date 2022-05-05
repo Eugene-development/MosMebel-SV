@@ -2,22 +2,19 @@
 
     import { Info_v_002 } from "$lib/brocker";
     import { useInfo } from "$lib/components/info/content/index.js";
-    const { Info } = useInfo
+    const { Info : {value} } = useInfo; //Вложенная деструктуризация
     const dataInfo = {
-        Info
+        value
     }
 
 </script>
 
 <Info_v_002 { ...dataInfo }/>
 
-
-
-
-<div class="pt-2 pb-5 relative bg-gray-800 overflow-hidden">
+<div class="pt-1 pb-4 relative bg-gray-800 overflow-hidden">
     <nav class="relative max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6" aria-label="Global">
         <div class="flex items-center flex-1 justify-between">
-            <div class="flex items-center justify-between w-full md:w-auto">
+            <div class="flex mt-2 items-center justify-between w-full md:w-auto">
                 <a href="/">
                     <span class="sr-only">Logo</span>
                     <img class="h-8 w-auto sm:h-12" src="https://storage.yandexcloud.net/brand-logo/mos-mebel/5.png" alt="logo">

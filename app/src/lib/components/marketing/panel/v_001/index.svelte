@@ -38,7 +38,7 @@
                 <div class="relative max-w-md mx-auto py-12 px-4 space-y-6 sm:max-w-3xl sm:py-16 sm:px-6 lg:max-w-none lg:p-0 lg:col-start-4 lg:col-span-6">
                     <h2 class="text-5xl font-extrabold text-white" id="join-heading">{ titlePage }</h2>
                     <p class="text-lg text-white">{ textPage }</p>
-                    <a class="block w-full py-3 px-5 text-center bg-white border border-transparent rounded-md shadow-md text-base font-medium text-indigo-700 hover:bg-gray-50 sm:inline-block sm:w-auto" href="#">Explore open positions</a>
+                    <a class="block w-full py-3 px-5 text-center bg-white border border-transparent rounded-md shadow-md text-base font-medium text-cyan-700 hover:bg-gray-50 sm:inline-block sm:w-auto" href="#">Оформить заявку на замер</a>
                 </div>
             </div>
         </div>
