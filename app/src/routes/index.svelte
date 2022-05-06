@@ -1,5 +1,5 @@
 <script>
-	import { Main_v_001} from "$lib/brocker/index.js";
+	import { Main_v_001 } from "$lib/brocker/index.js";
 
 	const title = 'Кухонные гарнитуры и шкафы купе в Москве и области от компании МосМебель'
 	const description = 'Наша компания МосМебель предлагает шкафы купе и кухонные гарнитуры стандартного размера и под заказ в Москве и московской области'
@@ -15,7 +15,8 @@
 <div class="mt-24 bg-gradient-to-b from-white to-gray-50">
 
 	<div class="text-center">
-		<h2 class="max-w-4xl mx-auto text-3xl tracking-tight font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 via-red-700 to-blue-700 sm:text-4xl">Мебель на заказ от ведущих производителей</h2>
+		<h2 class="max-w-6xl mx-auto text-3xl tracking-tight font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-green-400 via-cyan-500 to-cyan-600 sm:text-4xl">Мебель на заказ от ведущих производителей</h2>
+<!--		<h2 class="max-w-4xl mx-auto text-3xl tracking-tight font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 via-red-700 to-blue-700 sm:text-4xl">Мебель на заказ от ведущих производителей</h2>-->
 		<p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">Мы сотрудничаем только с проверенными производителями корпусной мебели, дающие гарантии качества и адекватные цены.</p>
 	</div>
 
@@ -88,7 +89,8 @@
 	</div>
 	<div class="relative max-w-7xl mx-auto">
 		<div class="text-center">
-			<h2 class="max-w-4xl mx-auto text-3xl tracking-tight font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 via-red-700 to-blue-700 sm:text-4xl">Последние посты из нашего блога</h2>
+			<h2 class="max-w-4xl mx-auto text-3xl tracking-tight font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-green-400 via-cyan-500 to-cyan-600 sm:text-4xl">Последние посты из нашего блога</h2>
+<!--			<h2 class="max-w-4xl mx-auto text-3xl tracking-tight font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 via-red-700 to-blue-700 sm:text-4xl">Последние посты из нашего блога</h2>-->
 			<p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">Интересные статьи о тенденциях, материалах, компаниях и в целом о мебельной индустрии в нашей стране и за рубежом</p>
 		</div>
 		<div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
