@@ -1,9 +1,8 @@
 <script>
 	import { Main_v_001 } from "$lib/brocker/index.js";
 
-	const title = 'Кухонные гарнитуры и шкафы купе в Москве и области от компании МосМебель'
-	const description = 'Наша компания МосМебель предлагает шкафы купе и кухонные гарнитуры стандартного размера и под заказ в Москве и московской области'
-
+	export let title;
+	export let description;
 	export let MainTestimonials;
 </script>
 
@@ -163,7 +162,7 @@
 	<div class="max-w-7xl mx-auto px-4 space-y-8 sm:px-6 lg:px-8">
 		<div class="text-base max-w-prose mx-auto lg:max-w-none">
 			<h2 class="text-base text-main font-semibold tracking-wide uppercase">Компания</h2>
-			<p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Мос-Мебель</p>
+			<p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">"Мос-Мебель"</p>
 		</div>
 		<div class="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-start">
 			<div class="relative z-10">
