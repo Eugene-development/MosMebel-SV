@@ -3,6 +3,8 @@
 
 	const title = 'Кухонные гарнитуры и шкафы купе в Москве и области от компании МосМебель'
 	const description = 'Наша компания МосМебель предлагает шкафы купе и кухонные гарнитуры стандартного размера и под заказ в Москве и московской области'
+
+	export let MainTestimonials;
 </script>
 
 <svelte:head>
@@ -30,7 +32,7 @@
 						<img src="objects/4.jpg" alt="ремонт" class="w-full object-center object-cover">
 					</div>
 					<div class="prose prose-sky">
-						<h3 class="mt-8 text-lg text-gray-800" class:text-red-800={true}>В наших кухонных гарнитурах мы предлагаем:</h3>
+						<h3 class="mt-8 text-lg text-gray-800" class:text-gray-900={true}>В наших кухонных гарнитурах мы предлагаем:</h3>
 						<ul>
 							<li>Дизайн-проект гарнитура</li>
 						</ul>
@@ -56,7 +58,7 @@
 						<img src="objects/9.jpg" alt="ремонт" class="w-full object-center object-cover">
 					</div>
 					<div class="prose prose-sky">
-						<h3 class="mt-8 text-lg text-gray-800">Заказывая шкаф вы можете приобрести по выбору:</h3>
+						<h3 class="mt-8 text-lg text-gray-800" class:text-gray-900={true}>Заказывая шкаф вы можете приобрести по выбору:</h3>
 						<ul>
 							<li>Дизайн-проект шкафа</li>
 						</ul>
@@ -94,110 +96,43 @@
 			<p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">Интересные статьи о тенденциях, материалах, компаниях и в целом о мебельной индустрии в нашей стране и за рубежом</p>
 		</div>
 		<div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
-			<div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
-				<div class="flex-shrink-0">
-					<img class="h-48 w-full object-cover" src="https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80" alt="">
-				</div>
-				<div class="flex-1 bg-white p-6 flex flex-col justify-between">
-					<div class="flex-1">
-						<p class="text-sm font-medium text-indigo-600">
-							<a href="#" class="hover:underline"> Article </a>
-						</p>
-						<a href="#" class="block mt-2">
-							<p class="text-xl font-semibold text-gray-900">Boost your conversion rate</p>
-							<p class="mt-3 text-base text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.</p>
-						</a>
-					</div>
-					<div class="mt-6 flex items-center">
-						<div class="flex-shrink-0">
-							<a href="#">
-								<span class="sr-only">Roel Aufderehar</span>
-								<img class="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
-							</a>
-						</div>
-						<div class="ml-3">
-							<p class="text-sm font-medium text-gray-900">
-								<a href="#" class="hover:underline"> Roel Aufderehar </a>
-							</p>
-							<div class="flex space-x-1 text-sm text-gray-500">
-								<time datetime="2020-03-16"> Mar 16, 2020 </time>
-								<span aria-hidden="true"> &middot; </span>
-								<span> 6 min read </span>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
 
-			<div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
-				<div class="flex-shrink-0">
-					<img class="h-48 w-full object-cover" src="https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80" alt="">
-				</div>
-				<div class="flex-1 bg-white p-6 flex flex-col justify-between">
-					<div class="flex-1">
-						<p class="text-sm font-medium text-indigo-600">
-							<a href="#" class="hover:underline"> Video </a>
-						</p>
-						<a href="#" class="block mt-2">
-							<p class="text-xl font-semibold text-gray-900">How to use search engine optimization to drive sales</p>
-							<p class="mt-3 text-base text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.</p>
-						</a>
-					</div>
-					<div class="mt-6 flex items-center">
-						<div class="flex-shrink-0">
-							<a href="#">
-								<span class="sr-only">Brenna Goyette</span>
-								<img class="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
-							</a>
-						</div>
-						<div class="ml-3">
-							<p class="text-sm font-medium text-gray-900">
-								<a href="#" class="hover:underline"> Brenna Goyette </a>
-							</p>
-							<div class="flex space-x-1 text-sm text-gray-500">
-								<time datetime="2020-03-10"> Mar 10, 2020 </time>
-								<span aria-hidden="true"> &middot; </span>
-								<span> 4 min read </span>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
 
-			<div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
-				<div class="flex-shrink-0">
-					<img class="h-48 w-full object-cover" src="https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80" alt="">
-				</div>
-				<div class="flex-1 bg-white p-6 flex flex-col justify-between">
-					<div class="flex-1">
-						<p class="text-sm font-medium text-indigo-600">
-							<a href="#" class="hover:underline"> Case Study </a>
-						</p>
-						<a href="#" class="block mt-2">
-							<p class="text-xl font-semibold text-gray-900">Improve your customer experience</p>
-							<p class="mt-3 text-base text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.</p>
-						</a>
-					</div>
-					<div class="mt-6 flex items-center">
-						<div class="flex-shrink-0">
-							<a href="#">
-								<span class="sr-only">Daniela Metz</span>
-								<img class="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
-							</a>
-						</div>
-						<div class="ml-3">
-							<p class="text-sm font-medium text-gray-900">
-								<a href="#" class="hover:underline"> Daniela Metz </a>
-							</p>
-							<div class="flex space-x-1 text-sm text-gray-500">
-								<time datetime="2020-02-12"> Feb 12, 2020 </time>
-								<span aria-hidden="true"> &middot; </span>
-								<span> 11 min read </span>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+<!--			<div class="flex flex-col rounded-lg shadow-lg overflow-hidden">-->
+<!--				<div class="flex-shrink-0">-->
+<!--					<img class="h-48 w-full object-cover" src="https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80" alt="">-->
+<!--				</div>-->
+<!--				<div class="flex-1 bg-white p-6 flex flex-col justify-between">-->
+<!--					<div class="flex-1">-->
+<!--						<p class="text-sm font-medium text-indigo-600">-->
+<!--							<a href="#" class="hover:underline"> Article </a>-->
+<!--						</p>-->
+<!--						<a href="#" class="block mt-2">-->
+<!--							<p class="text-xl font-semibold text-gray-900">Boost your conversion rate</p>-->
+<!--							<p class="mt-3 text-base text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.</p>-->
+<!--						</a>-->
+<!--					</div>-->
+<!--					<div class="mt-6 flex items-center">-->
+<!--						<div class="flex-shrink-0">-->
+<!--							<a href="#">-->
+<!--								<span class="sr-only">Roel Aufderehar</span>-->
+<!--								<img class="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">-->
+<!--							</a>-->
+<!--						</div>-->
+<!--						<div class="ml-3">-->
+<!--							<p class="text-sm font-medium text-gray-900">-->
+<!--								<a href="#" class="hover:underline"> Roel Aufderehar </a>-->
+<!--							</p>-->
+<!--							<div class="flex space-x-1 text-sm text-gray-500">-->
+<!--								<time datetime="2020-03-16"> Mar 16, 2020 </time>-->
+<!--								<span aria-hidden="true"> &middot; </span>-->
+<!--								<span> 6 min read </span>-->
+<!--							</div>-->
+<!--						</div>-->
+<!--					</div>-->
+<!--				</div>-->
+<!--			</div>-->
+
 		</div>
 	</div>
 </div>
@@ -263,66 +198,31 @@
 					</defs>
 					<rect width="404" height="384" fill="url(#bedc54bc-7371-44a2-a2bc-dc68d819ae60)" />
 				</svg>
+
+
+				{#each MainTestimonials as { name, text }}
 				<blockquote class="mb-6 relative bg-white rounded-lg shadow-lg">
-					<div class="rounded-t-lg px-6 py-8 sm:px-10 sm:pt-10 sm:pb-8">
-						<img src="" alt="Workcation" class="h-8">
+					<div class="rounded-t-lg px-6 py-8 sm:px-10 sm:pt-10 sm:pb-8 ">
+
 						<div class="relative text-lg text-gray-700 font-medium mt-8">
 							<svg class="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-gray-200" fill="currentColor" viewBox="0 0 32 32" aria-hidden="true">
 								<path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
 							</svg>
-							<p class="relative">Наше производство работает с компанией "ЛюбаМебель" уже несколько лет. Нас радует разнообразие заказов и их постоянство. Надеемся на долгое и взаимовыгодное сотрудничество.</p>
+							<p class="relative">{ text }</p>
 						</div>
 					</div>
-					<div class="relative flex items-center sm:items-start bg-main rounded-b-lg not-italic py-5 px-6 sm:py-5 sm:pl-12 sm:pr-10 sm:mt-10">
+					<div class="relative flex items-center sm:items-start bg-gray-800 rounded-b-lg not-italic py-5 px-6 sm:py-5 sm:pl-12 sm:pr-10 sm:mt-10">
 						<div class="relative rounded-full border-2 border-white sm:absolute sm:top-0 sm:transform sm:-translate-y-1/2">
 							<img class="w-12 h-12 sm:w-20 sm:h-20 rounded-full bg-main" src="https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2.5&w=160&h=160&q=80" alt="">
 						</div>
 						<div class="relative ml-4 text-main font-semibold leading-6 sm:ml-24 sm:pl-1">
-						  <p class="text-white font-semibold sm:inline">Румянцева Ольга</p>
-						  <p class="text-white sm:inline">(Менеджер)</p>
+						  <p class="text-white font-semibold sm:inline">{ name }</p>
 						</div>
 					</div>
 				</blockquote>
-				<blockquote class="mb-6 relative bg-white rounded-lg shadow-lg">
-					<div class="rounded-t-lg px-6 py-8 sm:px-10 sm:pt-10 sm:pb-8">
-						<img src="" alt="Workcation" class="h-8">
-						<div class="relative text-lg text-gray-700 font-medium mt-8">
-							<svg class="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-gray-200" fill="currentColor" viewBox="0 0 32 32" aria-hidden="true">
-								<path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
-							</svg>
-							<p class="relative">Наше производство работает с компанией "ЛюбаМебель" уже несколько лет. Нас радует разнообразие заказов и их постоянство. Надеемся на долгое и взаимовыгодное сотрудничество.</p>
-						</div>
-					</div>
-					<div class="relative flex items-center sm:items-start bg-main rounded-b-lg not-italic py-5 px-6 sm:py-5 sm:pl-12 sm:pr-10 sm:mt-10">
-						<div class="relative rounded-full border-2 border-white sm:absolute sm:top-0 sm:transform sm:-translate-y-1/2">
-							<img class="w-12 h-12 sm:w-20 sm:h-20 rounded-full bg-main" src="https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2.5&w=160&h=160&q=80" alt="">
-						</div>
-						<div class="relative ml-4 text-main font-semibold leading-6 sm:ml-24 sm:pl-1">
-						  <p class="text-white font-semibold sm:inline">Румянцева Ольга</p>
-						  <p class="text-white sm:inline">(Менеджер)</p>
-						</div>
-					</div>
-				</blockquote>
-				<blockquote class="mb-6 relative bg-white rounded-lg shadow-lg">
-					<div class="rounded-t-lg px-6 py-8 sm:px-10 sm:pt-10 sm:pb-8">
-						<img src="" alt="Workcation" class="h-8">
-						<div class="relative text-lg text-gray-700 font-medium mt-8">
-							<svg class="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-gray-200" fill="currentColor" viewBox="0 0 32 32" aria-hidden="true">
-								<path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
-							</svg>
-							<p class="relative">Наше производство работает с компанией "ЛюбаМебель" уже несколько лет. Нас радует разнообразие заказов и их постоянство. Надеемся на долгое и взаимовыгодное сотрудничество.</p>
-						</div>
-					</div>
-					<div class="relative flex items-center sm:items-start bg-main rounded-b-lg not-italic py-5 px-6 sm:py-5 sm:pl-12 sm:pr-10 sm:mt-10">
-						<div class="relative rounded-full border-2 border-white sm:absolute sm:top-0 sm:transform sm:-translate-y-1/2">
-							<img class="w-12 h-12 sm:w-20 sm:h-20 rounded-full bg-main" src="https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2.5&w=160&h=160&q=80" alt="">
-						</div>
-						<div class="relative ml-4 text-main font-semibold leading-6 sm:ml-24 sm:pl-1">
-						  <p class="text-white font-semibold sm:inline">Румянцева Ольга</p>
-						  <p class="text-white sm:inline">(Менеджер)</p>
-						</div>
-					</div>
-				</blockquote>
+				{/each}
+
+
 			</div>
 		</div>
 	</div>

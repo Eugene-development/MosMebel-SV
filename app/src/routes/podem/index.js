@@ -8,7 +8,19 @@ const data = {
     textPage
 }
 
-export async function get() {
+// export async function get() {
+//     return {
+//         body: {
+//             data,
+//             title: 'Подъём на этаж мебели',
+//             description: 'Условия подъёма приобретённой вами мебели на этаж на лифте или по лестничным проёмам'
+//         }
+//     }
+// }
+
+
+export const get = ({fetch, params, url}) => {
+
     return {
         body: {
             data,

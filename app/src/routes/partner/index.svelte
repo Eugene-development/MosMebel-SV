@@ -75,9 +75,8 @@
     <div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8 lg:flex lg:justify-between">
         <div class="max-w-xl">
             <h2 class="text-4xl font-extrabold text-white sm:text-5xl sm:tracking-tight lg:text-6xl">Гарантии</h2>
-            <p class="mt-5 text-xl text-gray-400">Продукция</p>
-            <p class="mt-5 text-xl text-gray-400">Услуги</p>
-            <p class="mt-5 text-xl text-gray-400"></p>
+            <p class="mt-5 text-xl text-gray-400">Необходимо предоставлять гарантии на продукцию от 12 до 36 месяцев и более по возможности.</p>
+            <p class="mt-5 text-xl text-gray-400">Отдельным соглашением нужно предоставить гарантии на услуги по сборке и установке мебели.</p>
         </div>
     </div>
 </div>
@@ -86,10 +85,8 @@
     <div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8 lg:flex lg:justify-between">
         <div class="max-w-xl">
             <h2 class="text-4xl font-extrabold text-white sm:text-5xl sm:tracking-tight lg:text-6xl">Цены</h2>
-            <p class="mt-5 text-xl text-gray-400">Конкурентность</p>
-            <p class="mt-5 text-xl text-gray-400"></p>
-            <p class="mt-5 text-xl text-gray-400"></p>
-            <p class="mt-5 text-xl text-gray-400"></p>
+            <p class="mt-5 text-xl text-gray-400">Ценовая политика однозначно предполагается в конкурентном поле без перегибов. Мы как компания партнёр будем отслеживать конкурентную тональность и по ценовому критерию в том числе.</p>
+            <p class="mt-5 text-xl text-gray-400">Поощряется проведение акций, нацеленных на обслуживание спроса аудитории с пониженной покупатеьской способностью.</p>
         </div>
     </div>
 </div>
@@ -98,10 +95,10 @@
     <div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8 lg:flex lg:justify-between">
         <div class="max-w-xl">
             <h2 class="text-4xl font-extrabold text-white sm:text-5xl sm:tracking-tight lg:text-6xl">Сервис</h2>
-            <p class="mt-5 text-xl text-gray-400">доставка</p>
-            <p class="mt-5 text-xl text-gray-400">замер</p>
-            <p class="mt-5 text-xl text-gray-400">установка</p>
-            <p class="mt-5 text-xl text-gray-400">рекламации</p>
+            <p class="mt-5 text-xl text-gray-400">Желательно наличие складского помещение на случай, если клиент пожелает забрать заказ самовывозом.</p>
+            <p class="mt-5 text-xl text-gray-400">Для облегчения процесса заказа мебели надеемся, что у вас есть замерщик.</p>
+            <p class="mt-5 text-xl text-gray-400">Достаточное количество бригад монтажников не создаст ситуацию, когда заказчик долго ждёт установки.</p>
+            <p class="mt-5 text-xl text-gray-400">Оперативное решение рекламаций сохранит клиентскую базу на более высоком уровне.</p>
         </div>
     </div>
 </div>
