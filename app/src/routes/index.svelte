@@ -90,7 +90,7 @@
 	</div>
 	<div class="relative max-w-7xl mx-auto">
 		<div class="text-center">
-			<h2 class="max-w-4xl mx-auto text-3xl tracking-tight font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-green-400 via-cyan-500 to-cyan-600 sm:text-4xl">Последние посты из нашего блога</h2>
+			<h2 class="max-w-4xl mx-auto text-3xl tracking-tight font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-green-400 via-cyan-500 to-cyan-600 sm:text-4xl">Популярные посты из нашего блога</h2>
 <!--			<h2 class="max-w-4xl mx-auto text-3xl tracking-tight font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 via-red-700 to-blue-700 sm:text-4xl">Последние посты из нашего блога</h2>-->
 			<p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">Интересные статьи о тенденциях, материалах, компаниях и в целом о мебельной индустрии в нашей стране и за рубежом</p>
 		</div>
