@@ -37,5 +37,5 @@
 </svelte:head>
 
 
-{bearer}
+<!--{bearer}-->
 <Panel_v_001 {...data}/>

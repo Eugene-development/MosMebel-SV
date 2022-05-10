@@ -1,5 +1,5 @@
 <script>
-    const title = 'Купить шкафы купе в Москве'
+    const title = 'Купить шкафы купе в Москве в компании МосМебель'
     const description = 'Информация о том как купить шкаф купе по низким ценам в Москве'
 </script>
 
@@ -13,7 +13,7 @@
     <div class="max-w-3xl mx-auto py-24 px-4 grid items-center grid-cols-1 gap-y-16 gap-x-8 sm:px-6 sm:py-32 lg:max-w-7xl lg:px-8 lg:grid-cols-2">
         <div>
             <h2 class="max-w-3xl mx-auto text-4xl tracking-tight font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 via-red-700 to-blue-700 sm:text-5xl">Распашные шкафы и шкафы-купе недорого и качественно</h2>
-            <p class="mt-4 text-gray-500">The walnut wood card tray is precision milled to perfectly fit a stack of Focus cards. The powder coated steel divider separates active cards from new ones</p>
+            <p class="mt-4 text-gray-500">Недорогие шкафы купе по низким ценам</p>
 
             <dl class="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
                 <div class="border-t border-gray-200 pt-4">
