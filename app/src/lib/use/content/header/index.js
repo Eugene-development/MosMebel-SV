@@ -1,35 +1,31 @@
 const menu = [
     {
-        value: 'Услуги',
-        link: 'services'
+        value: 'Главная',
+        link: ''
     },
     {
-        value: 'Компания',
-        link: 'company'
+        value: 'Шкафы',
+        link: 'shkafy'
     },
     {
-        value: 'Галерея',
-        link: 'gallery'
+        value: 'Кухня',
+        link: 'kuhni'
     },
     {
-        value: 'Отзывы',
-        link: 'testimonials'
+        value: 'Блог',
+        link: 'blog'
     },
     {
-        value: 'Специалисты',
-        link: 'specialists'
+        value: 'Партнёрам',
+        link: 'partner'
     },
-    // {
-    //     value: 'Блог',
-    //     link: 'blog'
-    // },
     {
         value: 'Контакты',
         link: 'contacts'
     },
 ]
 
-const phone = '+7 (831) 423-23-89'
+const phone = '+7 (495) 147-55-50'
 
 export const useHeader = {
     menu,
