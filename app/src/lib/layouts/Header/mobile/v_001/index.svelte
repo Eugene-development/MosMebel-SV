@@ -52,12 +52,14 @@
             </div>
             <div class="pt-5 pb-2">
                 <div class="px-2 space-y-1">
-                    ff
-                    {#each menu as { value, link }, i}
-                        <a class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50" href="/{link}" on:click={changeVisibleMobileMenu}>{value}</a>
-                    {:else}
-                        <p>Нет данных!</p>
-                    {/each}
+                    <p>1</p>
+                    <p>2</p>
+<!--                    ff-->
+<!--                    {#each menu as { value, link }, i}-->
+<!--                        <a class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50" href="/{link}" on:click={changeVisibleMobileMenu}>{value}</a>-->
+<!--                    {:else}-->
+<!--                        <p>Нет данных!</p>-->
+<!--                    {/each}-->
                 </div>
 <!--                <div class="mt-6 px-5">-->
 <!--                    <button on:click={changeVisibleFormMeasurement} type="button"-->
