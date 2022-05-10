@@ -1,15 +1,15 @@
 <script>
     import {useHeader} from "$lib/use/content/header/index.js";
-    import {formMeasurement, mobileMenu} from '../../../stores.js';
+    import { mobileMenu } from '../../../../../stores.js';
 
     const {menu} = useHeader;
     import {useVisible} from "$lib/use/visible/index.js";
 
     const {invert} = useVisible;
 
-    const changeVisibleFormMeasurement = () => formMeasurement.update(invert);
-    let visibleFormMeasurement;
-    formMeasurement.subscribe(value => visibleFormMeasurement = value);
+    // const changeVisibleFormMeasurement = () => formMeasurement.update(invert);
+    // let visibleFormMeasurement;
+    // formMeasurement.subscribe(value => visibleFormMeasurement = value);
 
 
     const changeVisibleMobileMenu = () => mobileMenu.update(invert);
@@ -30,11 +30,11 @@
 
 {#if visibleMobileMenu}
 
-    <div class="absolute z-20 top-0 inset-x-0 p-2 transition transform origin-top lg:hidden bg-gray-50">
+    <div class="absolute z-50 top-0 inset-x-0 p-2 transition transform origin-top lg:hidden bg-gray-50">
         <div class="rounded-lg shadow-md  ring-1 ring-black ring-opacity-5 overflow-hidden">
             <div class="px-5 pt-4 flex items-center justify-between">
                 <a on:click={changeVisibleMobileMenu} href="/app/static">
-                    <img class="h-8 w-auto" src="/Logo/logo1.svg"
+                    <img class="h-8 w-auto" src="https://storage.yandexcloud.net/brand-logo/mos-mebel/5.png"
                          alt="main">
                 </a>
 
@@ -52,16 +52,17 @@
             </div>
             <div class="pt-5 pb-2">
                 <div class="px-2 space-y-1">
+                    ff
                     {#each menu as { value, link }, i}
                         <a class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50" href="/{link}" on:click={changeVisibleMobileMenu}>{value}</a>
                     {:else}
                         <p>Нет данных!</p>
                     {/each}
                 </div>
-                <div class="mt-6 px-5">
-                    <button on:click={changeVisibleFormMeasurement} type="button"
-                            class="block text-center w-full py-3 px-4 rounded-md shadow bg-gradient-to-r from-green-500 to-cyan-600 text-white font-medium hover:from-green-600 hover:to-cyan-700">Получить консультацию</button>
-                </div>
+<!--                <div class="mt-6 px-5">-->
+<!--                    <button on:click={changeVisibleFormMeasurement} type="button"-->
+<!--                            class="block text-center w-full py-3 px-4 rounded-md shadow bg-gradient-to-r from-green-500 to-cyan-600 text-white font-medium hover:from-green-600 hover:to-cyan-700">Получить консультацию</button>-->
+<!--                </div>-->
                 <div class="mt-2 px-5">
                     <p class="text-center text-sm font-medium text-gray-500">Услуга бесплатная</p>
                 </div>
