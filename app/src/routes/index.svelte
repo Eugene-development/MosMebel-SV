@@ -16,8 +16,7 @@
 <div class="mt-24 bg-gradient-to-b from-white to-gray-50">
 
 	<div class="text-center">
-		<h2 class="max-w-6xl mx-auto text-3xl tracking-tight font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-green-400 via-cyan-500 to-cyan-600 sm:text-4xl">Мебель на заказ от ведущих производителей</h2>
-<!--		<h2 class="max-w-4xl mx-auto text-3xl tracking-tight font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 via-red-700 to-blue-700 sm:text-4xl">Мебель на заказ от ведущих производителей</h2>-->
+		<h2 class="max-w-4xl mx-auto text-3xl tracking-tight font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 via-red-700 to-blue-700 sm:text-4xl">Мебель на заказ от ведущих производителей</h2>
 		<p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">Мы сотрудничаем только с проверенными производителями корпусной мебели, дающие гарантии качества и адекватные цены.</p>
 	</div>
 
@@ -90,47 +89,46 @@
 	</div>
 	<div class="relative max-w-7xl mx-auto">
 		<div class="text-center">
-			<h2 class="max-w-4xl mx-auto text-3xl tracking-tight font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-green-400 via-cyan-500 to-cyan-600 sm:text-4xl">Популярные посты из нашего блога</h2>
-<!--			<h2 class="max-w-4xl mx-auto text-3xl tracking-tight font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 via-red-700 to-blue-700 sm:text-4xl">Последние посты из нашего блога</h2>-->
+			<h2 class="max-w-4xl mx-auto text-3xl tracking-tight font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 via-red-700 to-blue-700 sm:text-4xl">Последние посты из нашего блога</h2>
 			<p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">Интересные статьи о тенденциях, материалах, компаниях и в целом о мебельной индустрии в нашей стране и за рубежом</p>
 		</div>
 		<div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
 
 
-<!--			<div class="flex flex-col rounded-lg shadow-lg overflow-hidden">-->
-<!--				<div class="flex-shrink-0">-->
-<!--					<img class="h-48 w-full object-cover" src="https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80" alt="">-->
-<!--				</div>-->
-<!--				<div class="flex-1 bg-white p-6 flex flex-col justify-between">-->
-<!--					<div class="flex-1">-->
-<!--						<p class="text-sm font-medium text-indigo-600">-->
-<!--							<a href="#" class="hover:underline"> Article </a>-->
-<!--						</p>-->
-<!--						<a href="#" class="block mt-2">-->
-<!--							<p class="text-xl font-semibold text-gray-900">Boost your conversion rate</p>-->
-<!--							<p class="mt-3 text-base text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.</p>-->
-<!--						</a>-->
-<!--					</div>-->
-<!--					<div class="mt-6 flex items-center">-->
-<!--						<div class="flex-shrink-0">-->
-<!--							<a href="#">-->
-<!--								<span class="sr-only">Roel Aufderehar</span>-->
-<!--								<img class="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">-->
-<!--							</a>-->
-<!--						</div>-->
-<!--						<div class="ml-3">-->
-<!--							<p class="text-sm font-medium text-gray-900">-->
-<!--								<a href="#" class="hover:underline"> Roel Aufderehar </a>-->
-<!--							</p>-->
-<!--							<div class="flex space-x-1 text-sm text-gray-500">-->
-<!--								<time datetime="2020-03-16"> Mar 16, 2020 </time>-->
-<!--								<span aria-hidden="true"> &middot; </span>-->
-<!--								<span> 6 min read </span>-->
-<!--							</div>-->
-<!--						</div>-->
-<!--					</div>-->
-<!--				</div>-->
-<!--			</div>-->
+			<div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+				<div class="flex-shrink-0">
+					<img class="h-48 w-full object-cover" src="https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80" alt="">
+				</div>
+				<div class="flex-1 bg-white p-6 flex flex-col justify-between">
+					<div class="flex-1">
+						<p class="text-sm font-medium text-teal-600">
+							<a href="post/1" class="hover:underline"> Статья </a>
+						</p>
+						<a href="post/1" class="block mt-2">
+							<p class="text-xl font-semibold text-gray-900">Выбрать шкаф купе</p>
+							<p class="mt-3 text-base text-gray-500">Помимо удобной кровати или трельяжа в спальной комнате неизменно присутствуют и другие предметы мебели такие как распашной шкаф или шкаф купе. Чтобы...</p>
+						</a>
+					</div>
+					<div class="mt-6 flex items-center">
+						<div class="flex-shrink-0">
+							<a href="#">
+								<span class="sr-only">Евгений Че</span>
+								<img class="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+							</a>
+						</div>
+						<div class="ml-3">
+							<p class="text-sm font-medium text-gray-900">
+								<span class="hover:underline"> Евгений Че </span>
+							</p>
+							<div class="flex space-x-1 text-sm text-gray-500">
+								<time datetime="2020-03-16"> Май 10, 2022 </time>
+								<span aria-hidden="true"> &middot; </span>
+								<span> 6 мин на чтение </span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 
 		</div>
 	</div>
