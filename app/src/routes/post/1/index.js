@@ -1,5 +1,5 @@
-const title = 'Блог | Декоративная отделка'
-const description = 'Декоративная отделка – подарите своей квартире вторую жизнь'
+const title = 'Блог | Как правильно купить шкаф купе для спальни'
+const description = 'Наш пост о том какие моменты важно учесть при выборе недорогого шкафа купе'
 
 const text = `
         <div class="py-16 xl:py-36 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-white via-white to-gray-50 overflow-hidden">
@@ -62,8 +62,7 @@ const text = `
 `
 
 
-export const get = ({fetch, params, url}) => {
-
+export const get = () => {
     return {
         body: {
             title,
