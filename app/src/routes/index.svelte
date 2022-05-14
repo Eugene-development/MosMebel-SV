@@ -27,7 +27,7 @@
 			<div class="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:gap-x-8">
 				<div >
 					<div class="w-full aspect-w-3 aspect-h-2 rounded-lg overflow-hidden">
-						<img src="objects/4.jpg" alt="ремонт" class="w-full object-center object-cover">
+						<img src="https://mebelmobile.ru/foto/montazh2.jpg" alt="ремонт" class="w-full object-center object-cover">
 					</div>
 					<div class="prose prose-sky">
 						<h3 class="mt-8 text-lg text-gray-800" class:text-gray-900={true}>В наших кухонных гарнитурах мы предлагаем:</h3>
@@ -53,7 +53,7 @@
 				</div>
 				<div>
 					<div class="w-full aspect-w-3 aspect-h-2 rounded-lg overflow-hidden">
-						<img src="objects/9.jpg" alt="ремонт" class="w-full object-center object-cover">
+						<img src="https://i.siteapi.org/8gqTJwgAJ3hfsBunfWtXfsotGDE=/fit-in/1024x768/center/top/filters:quality(95)/d03f5c6ef4e0d96.s.siteapi.org/img/58cfe3978523b0e55f7d373bfe2a318d729dab8d.jpg" alt="ремонт" class="w-full object-center object-cover">
 					</div>
 					<div class="prose prose-sky">
 						<h3 class="mt-8 text-lg text-gray-800" class:text-gray-900={true}>Заказывая шкаф вы можете приобрести по выбору:</h3>
@@ -97,7 +97,7 @@
 
 			<div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
 				<div class="flex-shrink-0">
-					<img class="h-48 w-full object-cover" src="https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80" alt="">
+					<img class="h-64 w-full object-cover" src="https://i.siteapi.org/GWKmj-S1IJOOThT-VYLSKShGOTU=/fit-in/330x/top/filters:format(webp)/d03f5c6ef4e0d96.s.siteapi.org/img/c1a3df5b8fccc6110e91457c0e57dc4c5a860a88.jpg" alt="шкаф купе">
 				</div>
 				<div class="flex-1 bg-white p-6 flex flex-col justify-between">
 					<div class="flex-1">
@@ -159,8 +159,8 @@
 <div class="py-16 bg-gray-50 overflow-hidden">
 	<div class="max-w-7xl mx-auto px-4 space-y-8 sm:px-6 lg:px-8">
 		<div class="text-base max-w-prose mx-auto lg:max-w-none">
-			<h2 class="text-base text-cyan-900 font-semibold tracking-wide uppercase">Мебельная компания</h2>
-			<p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-cyan-900 sm:text-4xl">"Мос-Мебель"</p>
+			<h2 class="text-base text-slate-600 font-semibold tracking-wide uppercase">Мебельная компания</h2>
+			<p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-slate-800 sm:text-4xl">"Мос-Мебель"</p>
 		</div>
 		<div class="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-start">
 			<div class="relative z-10">
