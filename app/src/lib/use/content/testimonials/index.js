@@ -1,4 +1,4 @@
-const MainTestimonials = [
+const mainTestimonials = [
     {
         id: 1,
         date: '2 янв 2022',
@@ -23,5 +23,5 @@ const MainTestimonials = [
 ]
 
 export const useTestimonials = {
-    MainTestimonials,
+    mainTestimonials,
 }

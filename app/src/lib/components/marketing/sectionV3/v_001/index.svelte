@@ -1,6 +1,7 @@
 <script>
-    export let MainTestimonials
+    export let mainTestimonials
 </script>
+
 <div class="py-16 bg-gray-50 overflow-hidden">
     <div class="max-w-7xl mx-auto px-4 space-y-8 sm:px-6 lg:px-8">
         <div class="text-base max-w-prose mx-auto lg:max-w-none">
@@ -42,7 +43,7 @@
                 </svg>
 
 
-                {#each MainTestimonials as { name, text, img }}
+                {#each mainTestimonials as { name, text, img }}
                     <blockquote class="mb-16 relative bg-white rounded-lg shadow-lg">
                         <div class="rounded-t-lg px-6 py-8 sm:px-10 sm:pt-10 sm:pb-8 ">
                             <div class="relative text-lg text-gray-700 font-medium mt-8">
