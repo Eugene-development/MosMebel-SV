@@ -1,4 +1,5 @@
 import { useTestimonials } from "$lib/use/content/testimonials/index.js";
+import { contentSectionV1 } from "$lib/components/marketing/sectionV1/content/index.js";
 
 const { MainTestimonials } = useTestimonials;
 const title = 'Кухонные гарнитуры и шкафы купе в Москве и области от компании МосМебель'
@@ -9,7 +10,8 @@ export const get = () => {
         body : {
             title,
             description,
-            MainTestimonials
+            MainTestimonials,
+            contentSectionV1
         }
     }
 }
