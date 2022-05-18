@@ -1,5 +1,11 @@
 <script>
-	import { Main_v_001, SectionV1, SectionV2, SectionV3, BlogSectionV1 } from "$lib/brocker/index.js";
+	import {
+		Main_v_001,
+		MarketingSectionV1,
+		MarketingSectionV2,
+		MarketingSectionV3,
+		BlogSectionV1,
+	} from "$lib/brocker/index.js";
 	export let title;
 	export let description;
 	export let contentSectionV1;
@@ -12,8 +18,8 @@
 </svelte:head>
 
 <Main_v_001/>
-<SectionV1 {...contentSectionV1}/>
+<MarketingSectionV1 {...contentSectionV1}/>
 <BlogSectionV1/>
-<SectionV2/>
-<SectionV3 {...contentSectionV3}/>
+<MarketingSectionV2/>
+<MarketingSectionV3 {...contentSectionV3}/>
 
