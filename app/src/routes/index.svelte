@@ -1,6 +1,6 @@
 <script>
 	import {
-		Main_v_001,
+		MainSectionV1,
 		MarketingSectionV1,
 		MarketingSectionV2,
 		MarketingSectionV3,
@@ -17,7 +17,7 @@
 	<meta name="description" content="{description}">
 </svelte:head>
 
-<Main_v_001/>
+<MainSectionV1/>
 <MarketingSectionV1 {...contentSectionV1}/>
 <BlogSectionV1/>
 <MarketingSectionV2/>
