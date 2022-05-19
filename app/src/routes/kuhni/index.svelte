@@ -1,24 +1,17 @@
 <script>
-    const title = 'Купить кухонные гарнитуры в Москве в компании МосМебель'
-    const description = 'Информация о том как купить кухонные гарнитуры по низким ценам в Москве'
+    import {MarketingSectionV4} from "$lib/brocker/index.js";
+
+    export let seoTitle;
+    export let seoDescription;
+    export let dataMarketingSectionV4;
 </script>
 
 <svelte:head>
-    <title>{title}</title>
-    <meta name="description" content="{description}">
+    <title>{seoTitle}</title>
+    <meta name="description" content="{seoDescription}">
 </svelte:head>
 
-<div class="relative bg-gray-700">
-    <div class="absolute inset-0">
-        <img class="w-full h-full object-cover" src="https://i.siteapi.org/vXeK2C7o83-hUmIDMilznLkQqKA=/fit-in/330x/top/filters:format(webp)/d03f5c6ef4e0d96.s.siteapi.org/img/d60c0cf34ce63fcd8b9e01d55efda97cbbeb2c17.JPG" alt="">
-        <div class="absolute inset-0 bg-gray-500 mix-blend-multiply" aria-hidden="true"></div>
-    </div>
-    <div class="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
-        <h1 class="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">Кухонные гарнитуры в Москве</h1>
-        <p class="mt-6 text-xl text-indigo-100 max-w-3xl">Mattis amet hendrerit dolor, quisque lorem pharetra. Pellentesque lacus nisi urna, arcu sociis eu. Orci vel lectus nisl eget eget ut consectetur. Sit justo viverra non adipisicing elit distinctio.</p>
-    </div>
-</div>
-
+<MarketingSectionV4 {...dataMarketingSectionV4}/>
 
 <!-- This example requires Tailwind CSS v2.0+ -->
 <div class="bg-white">
