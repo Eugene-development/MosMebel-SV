@@ -1,8 +1,7 @@
-import { contentSectionV1 } from "$lib/components/marketing/sectionV1/content/index.js";
-import { contentSectionV3 } from "$lib/components/marketing/sectionV3/content/index.js";
 
 const seoTitle = 'Кухонные гарнитуры и шкафы купе в Москве и области от компании МосМебель'
 const seoDescription = 'Наша компания МосМебель предлагает шкафы купе и кухонные гарнитуры стандартного размера и под заказ в Москве и московской области'
+
 
 const mainTestimonials = [
     {
@@ -27,6 +26,14 @@ const mainTestimonials = [
         img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/testimonials/2.png'
     },
 ]
+const contentSectionV1 = {
+    title: 'Мебель на заказ от ведущих производителей',
+    description: 'Мы сотрудничаем только с проверенными производителями корпусной мебели, дающие гарантии качества и адекватные цены.'
+}
+
+const contentSectionV3 = {
+    mainTestimonials
+}
 
 export const get = () => {
     return {

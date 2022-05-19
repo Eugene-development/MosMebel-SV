@@ -1,14 +1,14 @@
 <script>
-    export let titleSectionV1;
-    export let descriptionSectionV1;
+    export let title;
+    export let description;
 </script>
 
 
 <div class="mt-24 bg-gradient-to-b from-white to-gray-50">
 
     <div class="text-center">
-        <h2 class="max-w-4xl mx-auto text-3xl tracking-tight font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 via-red-700 to-blue-700 sm:text-4xl">{titleSectionV1}</h2>
-        <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">{descriptionSectionV1}</p>
+        <h2 class="max-w-4xl mx-auto text-3xl tracking-tight font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 via-red-700 to-blue-700 sm:text-4xl">{title}</h2>
+        <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">{description}</p>
     </div>
 
     <div class="max-w-2xl mx-auto px-4 py-8 sm:px-6 sm:py-16 lg:max-w-7xl lg:px-8 ">
