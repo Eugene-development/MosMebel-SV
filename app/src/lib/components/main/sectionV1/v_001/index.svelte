@@ -3,8 +3,11 @@
     import {useGasp} from "$lib/use/functions/gasp/index.js";
     const {gaspText} = useGasp;
 
+    let box = 'box'
+    let box1 = 'box1'
+    let box2 = 'box2'
     onMount(() => {
-        gaspText()
+        gaspText(box, box1, box2)
     });
 </script>
 
@@ -25,7 +28,7 @@
             <div class="mx-auto max-w-7xl">
                 <div class="lg:grid lg:grid-cols-12 lg:gap-12">
                     <div class="px-4 sm:px-6 sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left lg:flex lg:items-center">
-                        <div id="box">
+                        <div id="{box}">
                             <a href="/contacts" class="inline-flex items-center text-white bg-gray-900 rounded-md p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-gray-200">
                                 <span class="ml-0.5 px-4 py-0.5 text-white text-xs font-semibold leading-5 uppercase tracking-wide bg-gradient-to-r from-green-500 to-cyan-600 rounded-md">Мы открыты</span>
                                 <span class="ml-4 p-1 text-sm">Посетите наши офисы</span>
@@ -42,12 +45,12 @@
                                 <span class="pb-3 block bg-clip-text text-transparent bg-gradient-to-r from-green-200 to-cyan-400 sm:pb-5">под заказ <br> от производителей</span>
                             </h1>
                             <p class="mt-3 text-base text-gray-300 sm:mt-5 sm:text-base lg:text-base xl:text-base antialiased"
-                               id="box1">
+                               id="{box1}">
                                 Шкафы купе по низким ценам и с разными вариантами установки дверей. Вы можете заказать у
                                 нас как шкаф эконом сегмента так и премиальный вариант. Также вы можете приобрести
                                 только внутреннее наполнение или сами двери купе.</p>
                             <p class="mt-3 text-base text-gray-300 sm:mt-5 sm:text-base lg:text-base xl:text-base antialiased"
-                               id="box2">
+                               id="{box2}">
                                 Если вы хотите приобрести кухонный гарнитур недорого и с высоким качеством, то
                                 предлагаем сделать это у нас. Мы предоставим оптимальное соотношение качества и цены на
                                 кухонные гарнитуры вне зависимости от ценовой категории.</p>
