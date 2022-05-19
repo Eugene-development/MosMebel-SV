@@ -50,13 +50,11 @@
 	<meta name="description" content="{seoDescription}">
 </svelte:head>
 
-<div id="">
 	<MainSectionV1/>
 	<MarketingSectionV1 {...contentSectionV1}/>
 	<BlogSectionV1/>
 	<MarketingSectionV2/>
 	<MarketingSectionV3 {...contentSectionV3}/>
-</div>
 
 <style>
 	.box {
