@@ -1,20 +1,11 @@
 <script>
-    import {gsap} from 'gsap'
     import {onMount} from 'svelte';
+    import {useGasp} from "$lib/use/functions/gasp/index.js";
+    const {gaspText} = useGasp;
 
-    onMount(async () => {
-        // gsap.to("#b", {duration: 4, x: 200, opacity: 0.3});
-
-        const tl = gsap.timeline();
-        const duration = 2;
-        tl.from('#test2', {
-            duration,
-            opacity: 0
-        })
-            .to("#box1", {duration: 1, x:10})
-            .to("#box2", {duration: 1, x:10})
+    onMount(() => {
+        gaspText()
     });
-
 </script>
 
 <div  class="relative bg-gray-800 overflow-hidden">
