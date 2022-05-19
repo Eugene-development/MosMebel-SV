@@ -39,15 +39,15 @@
 				}, `-=${duration * 0.75}`)
 	});
 
-	export let title;
-	export let description;
+	export let seoTitle;
+	export let seoDescription;
 	export let contentSectionV1;
 	export let contentSectionV3;
 </script>
 
 <svelte:head>
-	<title>{title}</title>
-	<meta name="description" content="{description}">
+	<title>{seoTitle}</title>
+	<meta name="description" content="{seoDescription}">
 </svelte:head>
 
 <div id="">
