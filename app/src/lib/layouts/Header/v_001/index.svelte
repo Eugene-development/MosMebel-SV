@@ -2,11 +2,6 @@
 
     import {mobileMenu} from "../../../../stores.js";
     import { Info_v_002 } from "$lib/brocker";
-    import { useInfo } from "$lib/components/info/content/index.js";
-    const { Info : {value} } = useInfo; //Вложенная деструктуризация
-    const dataInfo = {
-        value
-    }
     import {useVisible} from "$lib/use/functions/visible";
 
     const { invert } = useVisible;
@@ -18,7 +13,7 @@
 
 </script>
 
-<Info_v_002 { ...dataInfo }/>
+<Info_v_002 />
 
 <div class="pt-1 pb-4 relative bg-gray-800 overflow-hidden">
     <nav class="relative max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6" aria-label="Global">
