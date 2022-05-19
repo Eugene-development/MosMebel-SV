@@ -3,7 +3,7 @@ import {gsap} from "gsap";
 const gaspText = () => {
     const tl = gsap.timeline();
     const duration = 2;
-    tl.from('#test2', {
+    tl.from('#box', {
         duration,
         opacity: 0
     })

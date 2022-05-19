@@ -25,7 +25,7 @@
             <div class="mx-auto max-w-7xl">
                 <div class="lg:grid lg:grid-cols-12 lg:gap-12">
                     <div class="px-4 sm:px-6 sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left lg:flex lg:items-center">
-                        <div id="test2">
+                        <div id="box">
                             <a href="/contacts" class="inline-flex items-center text-white bg-gray-900 rounded-md p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-gray-200">
                                 <span class="ml-0.5 px-4 py-0.5 text-white text-xs font-semibold leading-5 uppercase tracking-wide bg-gradient-to-r from-green-500 to-cyan-600 rounded-md">Мы открыты</span>
                                 <span class="ml-4 p-1 text-sm">Посетите наши офисы</span>
