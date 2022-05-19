@@ -13,14 +13,6 @@
         })
             .to("#box1", {duration: 1, x:10})
             .to("#box2", {duration: 1, x:10})
-        // tl.from('#b2', {
-        //     duration,
-        //     opacity: 0
-        // })
-
-        // tl.from('#b', {duration: 1, opacity: 0
-        // }).from('#b', {duration, xPercent: 100, rotation: -90, yPercent: 100, ease: 'bounce.out',
-        // }, `-=${duration * 0.75}`)
     });
 
 </script>
