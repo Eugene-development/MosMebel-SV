@@ -1,7 +1,7 @@
 <script>
     import {onMount} from 'svelte';
     import {useGasp} from "$lib/use/functions/gasp/index.js";
-    const {gaspText} = useGasp;
+    const {gaspText, gsapOpacity} = useGasp;
 
     const boxParam = {
         box: 'box',
@@ -10,6 +10,7 @@
     }
     onMount(() => {
         gaspText(boxParam)
+        gsapOpacity(boxParam)
     });
 </script>
 
