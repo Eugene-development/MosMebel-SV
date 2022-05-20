@@ -1,19 +1,17 @@
 <script>
-
+    import MobileMenu from "../mobile/v_001/index.svelte";
     import {mobileMenu} from "../../../../stores.js";
-    import { Info_v_002 } from "$lib/brocker";
+    import { InfoSectionV1 } from "$lib/brocker";
     import {useVisible} from "$lib/use/functions/visible";
 
     const { invert } = useVisible;
 
     const changeVisibleMobileMenu = () => mobileMenu.update(invert);
 
-    import MobileMenu from "../mobile/v_001/index.svelte";
-
 
 </script>
 
-<Info_v_002 />
+<InfoSectionV1 />
 
 <div class="pt-1 pb-4 relative bg-gray-800 overflow-hidden">
     <nav class="relative max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6" aria-label="Global">
