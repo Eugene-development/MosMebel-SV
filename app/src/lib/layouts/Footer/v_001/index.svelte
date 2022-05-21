@@ -1,5 +1,5 @@
 <script>
-    import {FooterSectionV1} from "$lib/brocker/index.js";
+    import {FooterSectionV1} from "$lib/brocker";
     import {useFooter} from "$lib/components/footer/content/index.js";
     const {dataFooter} = useFooter;
 </script>
