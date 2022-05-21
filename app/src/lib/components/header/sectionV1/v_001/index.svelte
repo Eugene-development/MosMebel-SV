@@ -4,8 +4,8 @@
 
     const { invert } = useVisible;
     const changeVisibleMobileMenu = () => mobileMenu.update(invert);
-
 </script>
+
 <div class="pt-1 pb-4 relative bg-gray-800 overflow-hidden">
     <nav class="relative max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6" aria-label="Global">
         <div class="flex items-center flex-1 justify-between">
@@ -50,6 +50,4 @@
         <!--            </div>-->
         <!--        </div>-->
     </nav>
-
-
 </div>
