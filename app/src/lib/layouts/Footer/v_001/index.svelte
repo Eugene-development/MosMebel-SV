@@ -1,7 +1,7 @@
 <script>
-    import Footer from "$lib/components/footer/v_001/index.svelte";
-    import { useFooter } from "$lib/components/footer/content/index.js";
-    const { dataFooter } = useFooter;
+    import {FooterSectionV1} from "$lib/brocker/index.js";
+    import {useFooter} from "$lib/components/footer/content/index.js";
+    const {dataFooter} = useFooter;
 </script>
 
-<Footer {...dataFooter}/>
+<FooterSectionV1 {...dataFooter}/>

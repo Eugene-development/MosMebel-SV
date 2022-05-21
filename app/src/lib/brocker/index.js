@@ -1,3 +1,5 @@
+export { default as FooterSectionV1 } from '$lib/components/footer/sectionV1/v_001/index.svelte'
+
 export { default as MainSectionV1 } from '$lib/components/main/sectionV1/v_001/index.svelte'
 
 export { default as MarketingSectionV1 } from '$lib/components/marketing/sectionV1/v_001/index.svelte'
