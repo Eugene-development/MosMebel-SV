@@ -7,7 +7,7 @@
 <div class="mt-24 bg-gradient-to-b from-white to-gray-50">
 
     <div class="text-center">
-        <h2 class="max-w-4xl mx-auto text-3xl tracking-tight font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 via-red-700 to-blue-700 sm:text-4xl">{title}</h2>
+        <h2 class="max-w-4xl mx-auto text-3xl tracking-tight font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 via-red-700 to-amber-500 sm:text-4xl">{title}</h2>
         <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">{description}</p>
     </div>
 
@@ -18,7 +18,7 @@
             <div class="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:gap-x-8">
                 <div>
                     <div class="w-full aspect-w-3 aspect-h-2 rounded-lg overflow-hidden">
-                        <img src="https://mebelmobile.ru/foto/montazh2.jpg" alt="ремонт" class="w-full object-center object-cover">
+                        <img src="https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV1/kitchen.jpeg" alt="кухонный гарнитур" class="w-full object-center object-cover">
                     </div>
                     <div class="prose prose-sky">
                         <h3 class="mt-8 text-lg text-gray-800" class:text-gray-900={true}>В наших кухонных гарнитурах мы предлагаем:</h3>
@@ -44,7 +44,7 @@
                 </div>
                 <div>
                     <div class="w-full aspect-w-3 aspect-h-2 rounded-lg overflow-hidden">
-                        <img src="https://i.siteapi.org/8gqTJwgAJ3hfsBunfWtXfsotGDE=/fit-in/1024x768/center/top/filters:quality(95)/d03f5c6ef4e0d96.s.siteapi.org/img/58cfe3978523b0e55f7d373bfe2a318d729dab8d.jpg" alt="ремонт" class="w-full object-center object-cover">
+                        <img src="https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV1/shkaf.jpeg" alt="шкаф купе" class="w-full object-center object-cover">
                     </div>
                     <div class="prose prose-sky">
                         <h3 class="mt-8 text-lg text-gray-800" class:text-gray-900={true}>Заказывая шкаф вы можете приобрести по выбору:</h3>
