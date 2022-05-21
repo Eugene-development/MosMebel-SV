@@ -5,7 +5,7 @@
 		MarketingSectionV1,
 		MarketingSectionV2,
 		MarketingSectionV3,
-	} from "$lib/brocker/index.js";
+	} from "$lib/brocker";
 
 	export let seoTitle;
 	export let seoDescription;
