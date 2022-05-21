@@ -1,9 +1,9 @@
 <script>
     import {useVisible} from "$lib/use/functions/visible/index.js";
     import {mobileMenu} from "../../../../../stores.js";
-
     const { invert } = useVisible;
     const changeVisibleMobileMenu = () => mobileMenu.update(invert);
+    export let menu;
 </script>
 
 <div class="pt-1 pb-4 relative bg-gray-800 overflow-hidden">
@@ -25,29 +25,11 @@
                 </div>
             </div>
             <div class="hidden space-x-10 md:flex md:ml-10 mt-3 mr-12">
-                <a href="/" class="font-medium text-white hover:text-gray-300">Главная</a>
+                {#each menu as {value, path}}
+                    <a href="/{path}" class="font-medium text-white hover:text-gray-300">{value}</a>
+                {/each}
 
-                <a href="/shkafy" class="font-medium text-white hover:text-gray-300">Шкафы</a>
-
-                <a href="/kuhni" class="font-medium text-white hover:text-gray-300">Кухни</a>
-
-                <a href="/blog" class="font-medium text-white hover:text-gray-300">Блог</a>
-
-                <a href="/partner" class="font-medium text-white hover:text-gray-300">Партнёрам</a>
-
-                <a href="/contacts" class="font-medium text-white hover:text-gray-300">Контакты</a>
             </div>
         </div>
-        <!--        <div class="hidden lg:flex items-center px-2">-->
-        <!--            <div class="">-->
-        <!--                <div class="flex space-x-2 bg-gray-700 hover:bg-gray-600 px-4 py-2 rounded-xl items-center">-->
-        <!--                    &lt;!&ndash; Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" &ndash;&gt;-->
-        <!--                    <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-gray-50" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">-->
-        <!--                        <path stroke-linecap="round" stroke-linejoin="round" d="M21 3l-6 6m0 0V4m0 5h5M5 3a2 2 0 00-2 2v1c0 8.284 6.716 15 15 15h1a2 2 0 002-2v-3.28a1 1 0 00-.684-.948l-4.493-1.498a1 1 0 00-1.21.502l-1.13 2.257a11.042 11.042 0 01-5.516-5.517l2.257-1.128a1 1 0 00.502-1.21L9.228 3.683A1 1 0 008.279 3H5z" />-->
-        <!--                    </svg>-->
-        <!--                    <a href="tel:+74951475550" class="text-gray-50 rounded-md text-2xl font-bold">+7 (495) 147-55-50</a>-->
-        <!--                </div>-->
-        <!--            </div>-->
-        <!--        </div>-->
     </nav>
 </div>

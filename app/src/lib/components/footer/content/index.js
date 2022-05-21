@@ -25,32 +25,32 @@ if (import.meta.env.VITE_LOCALHOST === '6'){
         {
             id: 1,
             value: 'Главная',
-            path: '/',
+            path: '',
         },
         {
             id: 2,
             value: 'Шкафы',
-            path: '/shkafy',
+            path: 'shkafy',
         },
         {
             id: 3,
             value: 'Кухни',
-            path: '/kuhni',
+            path: 'kuhni',
         },
         {
             id: 4,
             value: 'Блог',
-            path: '/blog',
+            path: 'blog',
         },
         {
             id: 5,
             value: 'Партнёрам',
-            path: '/partner',
+            path: 'partner',
         },
         {
             id: 6,
             value: 'Контакты',
-            path: '/contacts',
+            path: 'contacts',
         },
     ]
 }

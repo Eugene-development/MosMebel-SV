@@ -33,7 +33,7 @@
         <nav class="-mx-5 -my-2 flex flex-wrap justify-center" aria-label="Footer">
             {#each menu as { value, path }}
                 <div class="px-5 py-2">
-                    <a href="{ path }" class="{text_style}"> { value } </a>
+                    <a href="/{ path }" class="{text_style}"> { value } </a>
                 </div>
             {/each}
         </nav>
