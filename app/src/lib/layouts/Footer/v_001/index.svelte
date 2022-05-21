@@ -1,6 +1,6 @@
 <script>
     import {FooterSectionV1} from "$lib/brocker";
-    import {useFooter} from "$lib/components/footer/content/index.js";
+    import {useFooter} from "$lib/layouts/Footer/content/index.js";
     const {dataFooter} = useFooter;
 </script>
 
