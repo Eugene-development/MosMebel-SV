@@ -3,7 +3,7 @@
         <div class="bg-gray-800 rounded-lg shadow-xl overflow-hidden lg:grid lg:grid-cols-2 lg:gap-4">
             <div class="pt-10 pb-12 px-3 sm:pt-16 sm:px-8 lg:py-16 lg:pr-0 xl:py-20 xl:px-10">
                 <div class="lg:self-center">
-                    <h2 class=" mx-auto text-3xl tracking-tight font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-blue-300 via-sky-300 to-blue-300 ">
+                    <h2 class=" mx-auto text-3xl tracking-tight font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-blue-200 via-sky-200 to-blue-200 ">
                         <span class="block">Вы производитель?</span>
                         <span class="block">Мы готовы к взаимовыгодному сотрудничеству!</span>
                     </h2>
