@@ -7,4 +7,4 @@
 
 <InfoSectionV1 />
 <HeaderSectionV1 {...contentHeader}/>
-<MobileMenu/>
+<MobileMenu {...contentHeader}/>

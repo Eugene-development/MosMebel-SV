@@ -1,32 +1,15 @@
 <script>
-    import { useHeader } from "$lib/use/content/header/index.js";
     import { mobileMenu } from '../../../../../stores.js';
-
-    const { menu } = useHeader;
     import {useVisible} from "$lib/use/visible/index.js";
 
     const {invert} = useVisible;
-
-    // const changeVisibleFormMeasurement = () => formMeasurement.update(invert);
-    // let visibleFormMeasurement;
-    // formMeasurement.subscribe(value => visibleFormMeasurement = value);
-
 
     const changeVisibleMobileMenu = () => mobileMenu.update(invert);
     let visibleMobileMenu;
     mobileMenu.subscribe(value => visibleMobileMenu = value);
 
+    export let menu;
 </script>
-<!--
-  Mobile menu, show/hide based on menu open state.
-
-  Entering: "duration-150 ease-out"
-    From: "opacity-0 scale-95"
-    To: "opacity-100 scale-100"
-  Leaving: "duration-100 ease-in"
-    From: "opacity-100 scale-100"
-    To: "opacity-0 scale-95"
--->
 
 {#if visibleMobileMenu}
 
@@ -52,8 +35,8 @@
             </div>
             <div class="pt-5 pb-2">
                 <div class="px-2 space-y-1">
-                    {#each menu as { value, link }, i}
-                        <a class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50" href="/{link}" on:click={changeVisibleMobileMenu}>{value}</a>
+                    {#each menu as { value, path }, i}
+                        <a class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50" href="/{path}" on:click={changeVisibleMobileMenu}>{value}</a>
                     {:else}
                         <p>Нет данных!</p>
                     {/each}
