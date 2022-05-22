@@ -40,8 +40,8 @@
             </div>
             <div class="pt-5 pb-2">
                 <div class="px-2 space-y-1">
-                    {#each menu as { value, link }, i}
-                        <a class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50" href="/{link}" on:click={changeVisibleMobileMenu}>{value}</a>
+                    {#each menu as { value, path }, i}
+                        <a class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50" href="/{path}" on:click={changeVisibleMobileMenu}>{value}</a>
                     {:else}
                         <p>Нет данных!</p>
                     {/each}
