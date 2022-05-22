@@ -8,13 +8,13 @@ const dataMarketingSectionV4 =
     }
 
 
-const mainTextCabinets =
+const mainText =
     {
         title: 'Распашные шкафы и шкафы купе недорого и качественно',
         description: 'Рассмотрите недорогие шкафы купе по низким ценам, а также распашные и встроенные шкафы. Выполним заказ под ваш размер в комнату или прихожую. Предложим варианты сочетания материалов и цветов в зависимости от ваших пожеланий и ценовой политики.'
     }
 
-const imgCabinets = [
+const img = [
     {
         path: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/cabinets/1.jpg',
         alt: ''
@@ -41,7 +41,7 @@ const imgCabinets = [
     },
 ]
 
-const typesCabinets = [
+const types = [
     {
         title: 'Шкафы купе',
         description: 'Подвесная и нижнеопорная система высокого качества'
@@ -68,10 +68,10 @@ const typesCabinets = [
     },
 ]
 
-const contentCabinetsMarketingSectionV5 = {
-    mainText: mainTextCabinets,
-    img: imgCabinets,
-    types: typesCabinets
+const contentMarketingSectionV5 = {
+    mainText,
+    img,
+    types
 }
 
 export const get = () => {
@@ -80,7 +80,7 @@ export const get = () => {
             seoTitle,
             seoDescription,
             dataMarketingSectionV4,
-            contentCabinetsMarketingSectionV5,
+            contentMarketingSectionV5,
         }
     }
 }

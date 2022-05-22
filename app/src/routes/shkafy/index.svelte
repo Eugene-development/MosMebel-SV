@@ -4,7 +4,7 @@
     export let seoTitle;
     export let seoDescription;
     export let dataMarketingSectionV4;
-    export let contentCabinetsMarketingSectionV5;
+    export let contentMarketingSectionV5;
 </script>
 
 <svelte:head>
@@ -13,7 +13,7 @@
 </svelte:head>
 
 <MarketingSectionV4 {...dataMarketingSectionV4}/>
-<MarketingSectionV5 {...contentCabinetsMarketingSectionV5}/>
+<MarketingSectionV5 {...contentMarketingSectionV5}/>
 
 <div class="relative py-16 bg-gradient-to-b from-white via-white to-gray-50 overflow-hidden">
     <div class="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
