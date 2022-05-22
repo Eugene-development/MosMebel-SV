@@ -6,12 +6,50 @@ const dataMarketingSectionV4 = {
     description: 'Шкафы купе в Москве под ваши размеры. Дизайн проект в подарок.',
 }
 
+
+const imgCabinets = [
+
+]
+
+const typesCabinets = [
+    {
+        title: 'Шкафы купе',
+        description: 'Подвесная и нижнеопорная система высокого качества'
+    },
+    {
+        title: 'Распашные',
+        description: 'Двух, трёх и четырёх створчатые с выдвижными ящиками'
+    },
+    {
+        title: 'Встроенные',
+        description: 'Безкаркасные со встраиваемыми полками влитые в нишу'
+    },
+    {
+        title: 'Гардеробные',
+        description: 'Полнофункциональные гардеробные с любым наполнением'
+    },
+    {
+        title: 'Двери купе',
+        description: 'В качестве перегородок или для замены старых дверей'
+    },
+    {
+        title: 'Офисные',
+        description: 'Стильные и строгие варианты шкафов для офисных помещений'
+    },
+]
+
+const contentMarketingSectionV5 = {
+    imgCabinets,
+    typesCabinets
+}
+
 export const get = () => {
     return {
         body : {
             seoTitle,
             seoDescription,
-            dataMarketingSectionV4
+            dataMarketingSectionV4,
+            contentMarketingSectionV5,
         }
     }
 }
