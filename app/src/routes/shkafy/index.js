@@ -5,6 +5,7 @@ const dataMarketingSectionV4 =
     {
         title: 'Шкафы купе в Москве и области',
         description: 'Шкафы купе в Москве под ваши размеры. Дизайн проект в подарок.',
+        pathImg: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/cabinets/1.jpg'
     }
 
 

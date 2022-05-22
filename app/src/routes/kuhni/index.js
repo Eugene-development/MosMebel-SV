@@ -4,6 +4,7 @@ const seoDescription = 'Информация о том как купить ку�
 const dataMarketingSectionV4 = {
     title: 'Кухонные гарнитуры в Москве',
     description: 'Кухонные гарнитуры с учётом всех нюансов вашего помещения и пожеланий',
+    pathImg: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/kitchens/4.jpg'
 }
 
 const mainText =
@@ -14,27 +15,27 @@ const mainText =
 
 const img = [
     {
-        path: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/cabinets/1.jpg',
+        path: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/kitchens/1.jpg',
         alt: ''
     },
     {
-        path: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/cabinets/9.JPG',
+        path: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/kitchens/2.jpg',
         alt: ''
     },
     {
-        path: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/cabinets/3.jpg',
+        path: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/kitchens/3.jpg',
         alt: ''
     },
     {
-        path: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/cabinets/5.jpg',
+        path: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/kitchens/5.jpg',
         alt: ''
     },
     {
-        path: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/cabinets/6.jpg',
+        path: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/kitchens/6.jpg',
         alt: ''
     },
     {
-        path: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/cabinets/7.jpg',
+        path: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/kitchens/7.jpg',
         alt: ''
     },
 ]
