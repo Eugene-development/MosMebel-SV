@@ -1,35 +1,42 @@
 const seoTitle = 'Купить шкафы купе в Москве в компании МосМебель'
 const seoDescription = 'Информация о том как купить шкаф купе по низким ценам в Москве'
 
-const dataMarketingSectionV4 = {
-    title: 'Шкафы купе в Москве и области',
-    description: 'Шкафы купе в Москве под ваши размеры. Дизайн проект в подарок.',
-}
+const dataMarketingSectionV4 =
+    {
+        title: 'Шкафы купе в Москве и области',
+        description: 'Шкафы купе в Москве под ваши размеры. Дизайн проект в подарок.',
+    }
 
+
+const mainTextCabinets =
+    {
+        title: 'Распашные шкафы и шкафы купе недорого и качественно',
+        description: 'Рассмотрите недорогие шкафы купе по низким ценам, а также распашные и встроенные шкафы. Выполним заказ под ваш размер в комнату или прихожую. Предложим варианты сочетания материалов и цветов в зависимости от ваших пожеланий и ценовой политики.'
+    }
 
 const imgCabinets = [
     {
-        img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/cabinets/1.jpg',
+        path: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/cabinets/1.jpg',
         alt: ''
     },
     {
-        img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/cabinets/9.JPG',
+        path: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/cabinets/9.JPG',
         alt: ''
     },
     {
-        img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/cabinets/3.jpg',
+        path: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/cabinets/3.jpg',
         alt: ''
     },
     {
-        img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/cabinets/5.jpg',
+        path: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/cabinets/5.jpg',
         alt: ''
     },
     {
-        img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/cabinets/6.jpg',
+        path: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/cabinets/6.jpg',
         alt: ''
     },
     {
-        img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/cabinets/7.jpg',
+        path: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/cabinets/7.jpg',
         alt: ''
     },
 ]
@@ -61,9 +68,10 @@ const typesCabinets = [
     },
 ]
 
-const contentMarketingSectionV5 = {
-    imgCabinets,
-    typesCabinets
+const contentCabinetsMarketingSectionV5 = {
+    mainText: mainTextCabinets,
+    img: imgCabinets,
+    types: typesCabinets
 }
 
 export const get = () => {
@@ -72,7 +80,7 @@ export const get = () => {
             seoTitle,
             seoDescription,
             dataMarketingSectionV4,
-            contentMarketingSectionV5,
+            contentCabinetsMarketingSectionV5,
         }
     }
 }
