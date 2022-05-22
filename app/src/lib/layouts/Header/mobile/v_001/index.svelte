@@ -19,7 +19,7 @@
 {#if visibleMobileMenu}
 
     <div class="absolute z-50 top-0 inset-x-0 p-2 transition transform origin-top lg:hidden bg-gray-50">
-        <div class="rounded-lg shadow-md  ring-1 ring-black ring-opacity-5 overflow-hidden">
+        <div class="rounded-lg shadow-md ring-1 ring-black ring-opacity-5 overflow-hidden">
             <div class="px-5 pt-4 flex items-center justify-between">
                 <a on:click={changeVisibleMobileMenu} href="/app/static">
                     <img class="h-8 w-auto" src="https://storage.yandexcloud.net/brand-logo/mos-mebel/5.png"

@@ -1,16 +1,18 @@
 <script>
     import {onMount} from 'svelte';
     import {useGasp} from "$lib/use/functions/gasp/index.js";
-    const {gaspText, gsapOpacity} = useGasp;
+    const {gaspText, gsapOpacity, toBig} = useGasp;
 
     const boxParam = {
         box: 'box',
         box1: 'box1',
-        box2: 'box2'
-    }
-    onMount(() => {
-        gaspText(boxParam)
-        gsapOpacity(boxParam)
+        box2: 'box2',
+        box3: 'box3',
+    };
+    // () => gsapOpacity(boxParam)
+    onMount(async () => {
+        await gaspText(boxParam.box1, boxParam.box2);
+        await toBig(boxParam.box3)
     });
 </script>
 
@@ -76,7 +78,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="mt-16 sm:mt-24 lg:mt-4 lg:col-span-6">
+                    <div id="{boxParam.box3}" class="mt-16 sm:mt-24 lg:mt-4 lg:col-span-6">
                         <div class="bg-white sm:max-w-md sm:w-full sm:mx-auto sm:rounded-lg sm:overflow-hidden">
                             <div class="px-4 py-8 sm:px-10">
                                 <div>
