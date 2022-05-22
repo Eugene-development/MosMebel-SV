@@ -8,7 +8,30 @@ const dataMarketingSectionV4 = {
 
 
 const imgCabinets = [
-
+    {
+        img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/cabinets/1.jpg',
+        alt: ''
+    },
+    {
+        img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/cabinets/9.JPG',
+        alt: ''
+    },
+    {
+        img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/cabinets/3.jpg',
+        alt: ''
+    },
+    {
+        img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/cabinets/5.jpg',
+        alt: ''
+    },
+    {
+        img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/cabinets/6.jpg',
+        alt: ''
+    },
+    {
+        img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/cabinets/7.jpg',
+        alt: ''
+    },
 ]
 
 const typesCabinets = [
