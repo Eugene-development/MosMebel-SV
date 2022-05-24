@@ -29,7 +29,7 @@
     </div>
     <div class="relative pt-6 pb-16 sm:pb-24">
 
-        <main class="mt-8 sm:mt-10">
+        <main class="mt-8 sm:mt-10 ">
             <div class="mx-auto max-w-7xl">
                 <div class="lg:grid lg:grid-cols-12 lg:gap-12">
                     <div class="px-4 sm:px-6 sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left lg:flex lg:items-center">
@@ -120,9 +120,12 @@
                                             <input type="text" name="password" id="time" autocomplete="time" placeholder="Удобное время" required class="block w-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm border-gray-300 rounded-md">
                                         </div>
 
-                                        <div>
+                                        <div >
                                             <button type="submit" class="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-gradient-to-r from-green-300 hover:from-green-200 via-cyan-600 hover:via-cyan-700 to-green-300 hover:to-green-200 ">Отправить</button>
                                         </div>
+<!--                                        <button class="transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 ...">-->
+<!--                                            Save Changes-->
+<!--                                        </button>-->
                                     </form>
 
 
