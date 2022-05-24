@@ -78,7 +78,7 @@
                             </div>
                         </div>
                     </div>
-                    <div id="{boxParam.box3}" class="mt-16 sm:mt-24 lg:mt-4 lg:col-span-6">
+                    <div class="mt-16 sm:mt-24 lg:mt-4 lg:col-span-6 transition ease-in-out delay-100 hover:scale-110 duration-500">
                         <div class="bg-white sm:max-w-md sm:w-full sm:mx-auto sm:rounded-lg sm:overflow-hidden">
                             <div class="px-4 py-8 sm:px-10">
                                 <div>

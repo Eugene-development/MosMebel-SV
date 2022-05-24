@@ -26,7 +26,7 @@
             </div>
             <div class="hidden space-x-10 md:flex md:ml-10 mt-3 mr-12">
                 {#each menu as {value, path}}
-                    <a href="/{path}" class="font-medium text-white hover:text-gray-300">{value}</a>
+                    <a href="/{path}" class="font-medium text-white hover:text-gray-300 transition ease-in-out delay-100 hover:scale-110 duration-500">{value}</a>
                 {/each}
 
             </div>
