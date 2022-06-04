@@ -1,5 +1,5 @@
 <script>
-    import { Panel_v_001 } from "$lib/brocker/index.js";
+    import { Panel_v_001 } from "$lib/brocker";
 
     export let data;
     export let title;

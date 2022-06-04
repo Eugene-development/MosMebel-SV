@@ -26,7 +26,7 @@
                 </div>
                 <div class="mt-10 flex text-base max-w-prose mx-auto lg:max-w-none">
                     <div class="rounded-md shadow">
-                        <a href="#" class="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-cyan-900 ">
+                        <a href="#" class="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-slate-800 ">
                             Записаться на замер
                         </a>
                     </div>
@@ -53,7 +53,7 @@
                                 <p class="relative">{ text }</p>
                             </div>
                         </div>
-                        <div class="relative flex items-center sm:items-start bg-cyan-900 rounded-b-lg not-italic py-5 px-6 sm:py-5 sm:pl-12 sm:pr-10 sm:mt-10">
+                        <div class="relative flex items-center sm:items-start bg-slate-800 rounded-b-lg not-italic py-5 px-6 sm:py-5 sm:pl-12 sm:pr-10 sm:mt-10">
                             <div class="relative rounded-full border-2 border-white sm:absolute sm:top-0 sm:transform sm:-translate-y-1/2">
                                 <img class="w-12 h-12 sm:w-20 sm:h-20 rounded-full bg-main" src="{img}" alt="фото клиента">
                             </div>
