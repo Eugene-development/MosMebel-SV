@@ -1,5 +1,5 @@
 <script>
-    import { MarketingSectionV4, MarketingSectionV5 } from "$lib/brocker";
+    import { MarketingSectionV4, MarketingSectionV5 } from "$lib/broker";
 
     export let seoTitle;
     export let seoDescription;

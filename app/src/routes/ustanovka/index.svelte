@@ -1,5 +1,5 @@
 <script>
-    import { Panel_v_001 } from "$lib/brocker/index.js";
+    import { Panel_v_001 } from "$lib/broker/index.js";
     import { usePanel } from "$lib/components/marketing/panel/content/index.js";
 
     const { Panel } = usePanel;

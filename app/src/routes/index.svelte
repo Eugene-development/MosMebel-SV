@@ -5,7 +5,7 @@
         MarketingSectionV1,
         MarketingSectionV2,
         MarketingSectionV3,
-    } from "$lib/brocker";
+    } from "$lib/broker";
 	export let seoTitle;
     export let seoDescription;
     export let contentSectionV1;
