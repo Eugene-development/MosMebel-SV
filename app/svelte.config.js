@@ -1,6 +1,5 @@
 import adapter from '@sveltejs/adapter-node';
-import autoImport from 'sveltekit-autoimport';
-/** @type {import('@sveltejs/kit').Config} */
+sud/** @type {import('@sveltejs/kit').Config} */
 const config = {
 	kit: {
 		adapter: adapter(),

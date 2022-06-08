@@ -13,7 +13,7 @@ const gaspText = (param1, param2) => {
     tl
         .to("#" + param1, {duration, x: 10, delay: 1})
         // .to("#" + param1, {duration, x: -10})
-        // .to("#" + param2, {duration, x: 10, repeat: 3, yoyo: true})
+        .to("#" + param2, {duration, x: 10, delay: 1})
 }
 
 const toBig = (param1) => {
